@@ -1,0 +1,88 @@
+{
+  "bid": "til",
+  "title": "The Impersonal Life",
+  "image": "/public/img/src/til-toc.jpg",
+  "contents": [
+    {
+      "title": "I AM",
+      "url": "/til/chap01/",
+      "audio": "/til/chap01.mp3"
+    },
+    {
+      "title": "Be Still and Know I AM God",
+      "url": "/til/chap02/",
+      "audio": "/til/chap02.mp3"
+    },
+    {
+      "title": "I, Life, God",
+      "url": "/til/chap03/",
+      "audio": "/til/chap03.mp3"
+    },
+    {
+      "title": "For I AM Life",
+      "url": "/til/chap04/",
+      "audio": "/til/chap04.mp3"
+    },
+    {
+      "title": "Consciousness, Intelligence, Will",
+      "url": "/til/chap05/",
+      "audio": "/til/chap05.mp3"
+    },
+    {
+      "title": "The Key",
+      "url": "/til/chap06/"
+    },
+    {
+      "title": "Thinking and Creating",
+      "url": "/til/chap07/"
+    },
+    {
+      "title": "The Word",
+      "url": "/til/chap08/"
+    },
+    {
+      "title": "My Idea",
+      "url": "/til/chap09/"
+    },
+    {
+      "title": "The Garden of Eden",
+      "url": "/til/chap10/"
+    },
+    {
+      "title": "Good and Evil",
+      "url": "/til/chap11/"
+    },
+    {
+      "title": "Use",
+      "url": "/til/chap12/"
+    },
+    {
+      "title": "Soul Mates",
+      "url": "/til/chap13/"
+    },
+    {
+      "title": "Authority",
+      "url": "/til/chap14/"
+    },
+    {
+      "title": "Mediums and Mediators",
+      "url": "/til/chap15/"
+    },
+    {
+      "title": "Masters",
+      "url": "/til/chap16/"
+    },
+    {
+      "title": "The Christ and Love",
+      "url": "/til/chap17/"
+    },
+    {
+      "title": "Finding Me",
+      "url": "/til/chap18/"
+    },
+    {
+      "title": "Union",
+      "url": "/til/chap19/"
+    }
+  ]
+}

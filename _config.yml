@@ -1,0 +1,56 @@
+# CMI
+sourceId: 1
+cmiTitle: "Teachings of Christ Mind"
+
+# Setup
+title:        'The Impersonal Life'
+tagline:      ''
+description:  ''
+url:          'https://jsb.christmind.info'
+baseurl:      ''
+keywords:     "Christ Mind, spiritual"
+
+# About/contact
+author:
+  name:              Rick Mercer
+  url:               https://twitter.com/rmercer33
+  email:             rmercer33@gmail.com
+
+fb-appId:     448658485318107
+src-url:      ''
+
+# Permalinks
+permalink: pretty
+permalink: /:title/
+
+# Set encoding to UTF-8
+encoding: utf-8
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Collections for transcripts
+collections:
+  til:
+    output: true
+    title: The Impersonal Life
+
+defaults:
+  - scope:
+      path: ""
+      type: til
+    values:
+      layout: transcript
+      book: "The Impersonal Life"
+      image: "/public/img/src/vol-big.jpg"
+      image-width: 612
+      image-height: 792
+      bid: "til"
+
+exclude: [
+  Gemfile, Gemfile.lock, package.json, package-lock.json, node_modules, webpack.config.js, src, project
+]
+
