@@ -52,19 +52,14 @@ mind take in the significance of these words:
 
 "Be still! --- and KNOW --- I AM --- God."
 
-Without thinking, allow this, My Divine Command, to penetrate deep
-into your Soul. Let
-
-whatever impressions that come to your mind enter at will --- without
-effort or interference on
-
-your part. Note carefully their import, for it is I, within, through
-these impressions, instructing
-
-you. Then, when somewhat of their vital significance begins to dawn
-upon your consciousness, speak these My Words slowly, imperatively, to
-every cell of your body, to every faculty of your mind, with all the
-conscious power you possess: --
+Without thinking, allow this, My Divine Command, to penetrate deep into
+your Soul. Let whatever impressions that come to your mind enter at will
+without effort or interference on your part. Note carefully their
+import, for it is I, within, through these impressions, instructing you.
+Then, when somewhat of their vital significance begins to dawn upon your
+consciousness, speak these My Words slowly, imperatively, to every cell
+of your body, to every faculty of your mind, with all the conscious
+power you possess:
 
 "Be still! --- and KNOW --- I AM --- God."
 
@@ -83,7 +78,7 @@ Say them a thousand times a day,
 Until you have discovered all My innermost meaning;
 
 Until every cell of your body thrills in joyful response to the
-command, "Be Still," and instantly obeys;
+command, &ldquo;Be Still,&rdquo; and instantly obeys;
 
 And every vagrant thought hovering around your mind hies itself off
 into nothingness.
@@ -103,9 +98,9 @@ Holiness, the Majesty of My Presence;
 
 And then, then you will KNOW, I AM, God.
 
-You, -- when you have felt Me thus in such moments within, when you have
+You, when you have felt Me thus in such moments within, when you have
 tasted of My Power, hearkened to My Wisdom, and know the ecstasy of My
-all-embracing Love, -- no disease can touch, no circumstance can weaken,
+all-embracing Love, no disease can touch, no circumstance can weaken,
 no enemy can conquer you. For now you KNOW I AM within, and you always
 hereafter will turn to Me in your need, putting all your trust in Me,
 and allowing Me to manifest My Will.
@@ -126,7 +121,7 @@ It depends upon no one but You;
 Not upon your personality, with its human desires and human
 understanding;
 
-But upon the I AM of you -- God, within.
+But upon the I AM of you &ndash; God, within.
 
 Who is it that causes the bud to open into the blossom?
 

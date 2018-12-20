@@ -45,7 +45,7 @@ defaults:
     values:
       layout: transcript
       book: "The Impersonal Life"
-      image: "/public/img/src/vol-big.jpg"
+      image: "/public/img/src/til-big.jpg"
       image-width: 612
       image-height: 792
       bid: "til"
