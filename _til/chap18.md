@@ -6,10 +6,10 @@ You, who have studied carefully all that has been said herein, and who
 think you have gotten a glimpse of Me, but yet are not sure, come
 close, and listen with your Soul to what I now have to say.
 
-Be still! -- and KNOW, -- I AM, -- GOD.
+Be still! &ndash; and KNOW, &ndash; I AM, &ndash; GOD.
 
-If you have learned to "Be Still," if you have studied and meditated
-upon this "I" as God within you, if you are able to distinguish It
+If you have learned to &ldquo;Be Still,&rdquo; if you have studied and meditated
+upon this &ldquo;I&rdquo; as God within you, if you are able to distinguish It
 from the personal I, and are conscious at times of being able to step
 outside, as it were, of your personality and view your human self as
 it is, see all its petty faults and weaknesses, its base selfishness,
@@ -48,17 +48,15 @@ Body, whose consciousness, did you but know it, is ever on the alert
 to protect and warn and advise you regarding all outer things,
 conditions and events.
 
-The best and surest way you may know Me is when Selfless Love fills
-your heart, and there is a strong, compelling urge to help some one,
-to heal their ills, to relieve their suffering, to bring them
-happiness, to point out the True Way, -- that is the actual feel of Me
-within you, pushing the personality aside, using your mind and body
-for the purpose I created them, as avenues for the expression of My
-Real Nature, which is Perfect Love, the Christ of God, the one,
-vitalizing,
-
-quickening, life-giving, strengthening, healing, all-supplying,
-all-informing Power in the Universe.
+The best and surest way you may know Me is when Selfless Love fills your
+heart, and there is a strong, compelling urge to help some one, to heal
+their ills, to relieve their suffering, to bring them happiness, to
+point out the True Way, that is the actual feel of Me within you,
+pushing the personality aside, using your mind and body for the purpose
+I created them, as avenues for the expression of My Real Nature, which
+is Perfect Love, the Christ of God, the one, vitalizing, quickening,
+life-giving, strengthening, healing, all-supplying, all-informing Power
+in the Universe.
 
 All this is pointed out to you in order to impress upon you that it is
 I, in your Spiritual body, the Perfect Body within, where I dwell, Who
@@ -243,42 +241,42 @@ from, or the money for next week's rent, or for the past due mortgage;
 Listen once more to My Words long since given to you in the Sermon on
 the Mount.
 
-"Therefore I say unto you, Take no thought for your life, what ye shall
-eat or what ye shall drink; nor yet for your body, what ye shall put on.
-
-"Is not the life more than meat, and the body than raiment?
-
-"Behold the fowls of the air; for they sow not, neither do they reap,
-nor gather into barns; yet your heavenly Father feedeth them. Are ye
-not much better than they?
-
-"Which of you by taking thought can add one cubit unto his stature?
-
-"And why take ye thought for raiment? Consider the lilies of the
-field, how they grow; they toil not neither do they spin; and yet I
-say unto you that even Solomon in all his glory was not arrayed like
-one of these.
-
-"Wherefore, if God so clothe the grass of the field, which today is
-and tomorrow is cast into the oven, shall he not much more clothe you,
-O ye of little faith?
-
-"Therefore take no thought, saying, What shall we eat? Or What shall we
-drink? Or wherewithal shall we be clothed?
-
-"For your heavenly Father knoweth that ye have need of these things.
-
-"But seek ye first the kingdom of God (being interpreted His
-Consciousness) and His righteousness; and all these things shall be
-added unto you.
-
-"Take, therefore, no thought for the morrow, for the morrow shall take
-thought for the things of itself.
-
-"Sufficient unto the day is the evil thereof."
+> Therefore I say unto you, Take no thought for your life, what ye shall
+> eat or what ye shall drink; nor yet for your body, what ye shall put on.
+>
+> Is not the life more than meat, and the body than raiment?
+>
+> Behold the fowls of the air; for they sow not, neither do they reap,
+> nor gather into barns; yet your heavenly Father feedeth them. Are ye
+> not much better than they?
+>
+> Which of you by taking thought can add one cubit unto his stature?
+>
+> And why take ye thought for raiment? Consider the lilies of the
+> field, how they grow; they toil not neither do they spin; and yet I
+> say unto you that even Solomon in all his glory was not arrayed like
+> one of these.
+>
+> Wherefore, if God so clothe the grass of the field, which today is
+> and tomorrow is cast into the oven, shall he not much more clothe you,
+> O ye of little faith?
+>
+> Therefore take no thought, saying, What shall we eat? Or What shall we
+> drink? Or wherewithal shall we be clothed?
+>
+> For your heavenly Father knoweth that ye have need of these things.
+>
+> But seek ye first the kingdom of God (being interpreted His
+> Consciousness) and His righteousness; and all these things shall be
+> added unto you.
+>
+> Take, therefore, no thought for the morrow, for the morrow shall take
+> thought for the things of itself.
+>
+> Sufficient unto the day is the evil thereof.
 
 Do you need any more definite Commands or any more definite Promise
-than these? -- You who have consecrated yourself to Me, and call
+than these? You who have consecrated yourself to Me, and call
 yourself My disciple. Listen!
 
 Have I not always provided everything? Have you ever been in need but
@@ -315,25 +313,24 @@ Not until you can feel ME within, and know I AM all this to you, is
 real and lasting Health for you to experience.
 
 And now, My Child, draw close. For I AM now going to tell you the
-means of obtaining all these things - Health, Prosperity, Happiness,
+means of obtaining all these things &ndash; Health, Prosperity, Happiness,
 Union, Peace.
 
 In the following words lies hidden the Great Secret. Blessed be you
 who find it.
 
-Be still! And KNOW, -- I AM, -- GOD.
+Be still! And KNOW, &mdash; I AM, &mdash; GOD.
 
 KNOW I AM in you. KNOW I AM you. KNOW I AM your LIFE. KNOW All Wisdom,
 All Love, All Power abides in this Life, which is flowing freely
 through your entire being NOW.
 
 I AM the LIFE, I AM the INTELLIGENCE, I AM the POWER in all Substance,
--- in all the cells of your body; in the cells of all mineral, vegetable
+in all the cells of your body; in the cells of all mineral, vegetable
 and animal matter; in fire, water and air; in Sun, Moon and Stars. I AM
 that in you and in them which IS. Their consciousness is One with
-
 your consciousness, and All is My Consciousness. Through My
-Consciousness in them All that they have or are is yours -- for the
+Consciousness in them All that they have or are is yours &ndash; for the
 asking.
 
 Speak in the Consciousness of your Oneness with Me.
@@ -341,7 +338,7 @@ Speak in the Consciousness of your Oneness with Me.
 Speak in the Consciousness of My Power in you and of My Intelligence
 in them.
 
-Speak - COMMAND what You WILL in this Consciousness, -- and the
+Speak &ndash; COMMAND what You WILL in this Consciousness, and the
 Universe will rush to obey.
 
 RISE UP! O aspirant for union with Me. Accept now your Divine
@@ -361,7 +358,7 @@ AWAKE! Rise up and assert your Sovereignty! KNOW your SELF and your
 POWERS! KNOW that all I have is yours, that My Omnipotent LIFE is
 flowing through you, that you can take of IT and build with IT what
 you WILL, and IT will manifest for you as Health, Power, Prosperity,
-Union, Happiness, Peace, -- anything you WILL of ME.
+Union, Happiness, Peace, anything you WILL of ME.
 
 Imagine this. THINK it. KNOW it! Then, with all the Positiveness of
 your nature, Speak the Creative WORD! It will not return to you void.

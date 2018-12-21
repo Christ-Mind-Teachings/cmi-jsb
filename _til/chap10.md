@@ -57,21 +57,21 @@ expression of My Attributes.
 
 This change from a mental to a mortal form took place after the manner
 and process of all thinking and creating, and is literally described
-in the Bible, where it says I "formed man of the dust of the ground,
+in the Bible, where it says I &ldquo;formed man of the dust of the ground,
 and breathed into his nostrils the breath of life; and man became a
-living soul."
+living soul.&rdquo;
 
-Shall I explain further? -- That the quickening power within My Idea
+Shall I explain further? That the quickening power within My Idea
 (your Soul) proceeded to attract to it the various elements of life
 substance (dust), and, atom by atom, and cell by cell, in due course of
 time, to mold and shape each into substantial reality, after the pattern
 of the Thought Image composing your Soul Body, thus forming an Earthly
-outer covering, as it were, -- until finally your mortal form actually
+outer covering, as it were, until finally your mortal form actually
 became manifest to the psychic sense, if not yet to what is called the
 physical sense. Whereupon, all being now prepared for this cyclic
 moment, You, My Attribute, breathed into and then through its nostrils
 (from within) the breath of life, and You then made your first
-appearance of Earth as a human being-- a living Soul (My Idea now able
+appearance of Earth as a human being -- a living Soul (My Idea now able
 to express consciously through a suitable Earth medium), containing
 within your Self all of My Attributes, all of My Powers and all of My
 Possibilities.
@@ -102,18 +102,16 @@ expression, and its relation to My Will; how it centers your interest in
 outer things and makes you forget Me within.
 
 When you have solved that and comprehended somewhat of My reason, then
-perhaps you can understand the necessity of first causing You
-(Humanity) to fall into a deep sleep (You having arrived at the close
-of another Cycle called a Cosmic day), and of letting you dream you
-had awakened, -- but in reality you were and are still asleep, and
-everything from that day to this, including all seeming Earthly events
-and conditions, have been but a Dream, from which you will fully
-awaken only when You (Humanity) again become wholly conscious of Me
-within, -- and of finding Yourself (Humanity) no longer outwardly one,
-but two; one an active, thinking,
-
-aggressive part, thereafter called a man, and the other a passive,
-feeling, receptive part, -- a womb-man, or woman;
+perhaps you can understand the necessity of first causing You (Humanity)
+to fall into a deep sleep (You having arrived at the close of another
+Cycle called a Cosmic day), and of letting you dream you had awakened,
+but in reality you were and are still asleep, and everything from that
+day to this, including all seeming Earthly events and conditions, have
+been but a Dream, from which you will fully awaken only when You
+(Humanity) again become wholly conscious of Me within, and of finding
+Yourself (Humanity) no longer outwardly one, but two; one an active,
+thinking, aggressive part, thereafter called a man, and the other a
+passive, feeling, receptive part, a womb-man, or woman;
 
 Also the necessity of these seeming Earth influences being brought to
 bear to draw Your consciousness from purely Celestial delights and to
@@ -163,14 +161,14 @@ And so I Spake the Word, and drove You out of the Garden of Eden, and
 clothed You with a "coat of skin," or, in other words, with flesh, the
 same as other animals. For now, in order that You might enter into the
 heart of Earth conditions, into the real Earth, the Earth of My Idea,
--- not the one of your Dream, -- so as to quicken My Idea therein into
+not the one of your Dream, so as to quicken My Idea therein into
 active life expression, You, My Attribute, had to have an organism and
 a covering appropriate to the conditions in which
 
 You were to manifest in your Dream.
 
 Likewise, in thus giving You a coat of skin, did I, by so doing,
-provide My Idea with a suitable form for Earthly expression, -- I gave
+provide My Idea with a suitable form for Earthly expression, I gave
 you the power to express Your Self, through a definite organism, by
 means of words.
 
@@ -198,18 +196,16 @@ the Earth, each containing many words, and all born of Desire in the
 human mind to express in Earthly terms the infinite phases of My Idea
 ever surging within.
 
-The more the human mind strove thus to express " in Words" My Idea,
+The more the human mind strove thus to express &ldquo;in Words&rdquo; My Idea,
 the greater and more abject the failure.
 
-In time will the Great Awakening come-- that all Words are but Symbols
-of One Idea, and all Ideas of whatsoever nature are but phases of One
-Idea, My Idea of My Self in Expression, -- and
-
-that all Desire to express in Words that Idea, without the
-consciousness of My Will being the One and Only source of Inspiration,
-is futile. Likewise, all desire to express that Idea in living acts,
-without losing all consciousness of your human personality -- of your
-personal part in the acts, and centering your self wholly in Me, -- is
-vain and fruitless and will end only in failure, disappointment and
-humiliation.
+In time will the Great Awakening come, that all Words are but Symbols of
+One Idea, and all Ideas of whatsoever nature are but phases of One Idea,
+My Idea of My Self in Expression, and that all Desire to express in
+Words that Idea, without the consciousness of My Will being the One and
+Only source of Inspiration, is futile. Likewise, all desire to express
+that Idea in living acts, without losing all consciousness of your human
+personality -- of your personal part in the acts, and centering your
+self wholly in Me, is vain and fruitless and will end only in
+failure, disappointment and humiliation.
 

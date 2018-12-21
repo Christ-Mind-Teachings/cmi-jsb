@@ -12,7 +12,7 @@ point. If you are now really ready and willing to serve Me, and have
 learned that you, of yourself, can know nothing and can do nothing,
 and that I AM, and what you call your intelligence and your strength
 and your substance are really Mine, and that it is I who direct all
-your thoughts and both cause and enable you to do all that you do, --
+your thoughts and both cause and enable you to do all that you do,
 then can you comprehend the significance of My Words, and are quite
 prepared to obey them.
 
@@ -67,7 +67,6 @@ circle; a Power that will attract to you business, money, friends, and
 abundance of all things you need; a Power that will connect you with the
 highest realms of thought, enabling you both to vision clearly and to
 manifest consciously all My Impersonal Powers and Attributes
-
 every moment of your life.
 
 You will no longer feel any need to go to church or to religious
@@ -130,9 +129,8 @@ or feel unkindness coming from any other fellow being. For you will know
 that I, the Impersonal One, within that other, AM the fount of all
 perfection, of all harmony, of all loving-kindness, and wait but for the
 human personality to make the recognition, step submissively aside, and
-let My Light shine forth, resplendent in all the
-
-glory of My Divine Idea.
+let My Light shine forth, resplendent in all the glory of My Divine
+Idea.
 
 Then will you see that all conditions in which I put you are the
 places I have chosen where you can best serve Me; that in all places
@@ -141,8 +139,8 @@ objectionable they are to the personality, the more need there is of
 My Living Presence.
 
 Wherever you are when the awakening comes, whatever has been your
-training, -- in business, in a profession, in manual labor, in the
-church, or in the underworld, -- there lies perhaps your best
+training, in business, in a profession, in manual labor, in the
+church, or in the underworld, there lies perhaps your best
 opportunity to serve; for there you know best the manner and the way.
 For how can My and Your other selves awaken to a knowledge of My
 Presence within, without the quickening influence which must first

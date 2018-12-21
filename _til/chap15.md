@@ -6,10 +6,10 @@ You, who, in your desire to serve Me, have joined yourself with a
 church, religious organization, occult society, or spiritual order, of
 whatsoever nature, thinking, by aiding in and supporting its work, it
 would please Me, and that you might receive special favors from Me in
-consequence, -- harken to these My Words and ponder over them.
+consequence, harken to these My Words and ponder over them.
 
 First, know that I AM already pleased with you, for you do nothing
-that I do not cause you to do, and you do it to fulfill My Purpose, --
+that I do not cause you to do, and you do it to fulfill My Purpose,
 although it may seem to you at times you are acting contrary to My
 Wish and only to satisfy your own desires.
 
@@ -37,15 +37,11 @@ personally do nothing, only serving as channels through which My Idea
 can express to the consciousness of those I draw to them for that
 purpose.
 
-Jean’s
-
-For the mind is only a channel and the intellect an instrument, which
-I use Impersonally wherever and whenever necessary to express My Idea.
-Not until the heart has been quickened
-
-and has opened wide to contain Me can man, with his mortal mind and
-intellect, consciously comprehend My Meaning, when I express through
-him My Idea.
+For the mind is only a channel and the intellect an instrument, which I
+use Impersonally wherever and whenever necessary to express My Idea.
+Not until the heart has been quickened and has opened wide to contain Me
+can man, with his mortal mind and intellect, consciously comprehend My
+Meaning, when I express through him My Idea.
 
 You, in your desire to serve Me, may have found in some teacher or
 leader a personality whom you think, from the many seemingly wondrous
@@ -71,12 +67,12 @@ with clever sophistry under the guise of high and beautiful sounding
 spiritual teaching, to keep you bound to them so you would continue to
 support and honor and glorify them, ever holding over you the lash of
 My displeasure if they receive not unquestioning trust and obedience,
--- yes, all this I permit to be, for it is what you desire and seek,
+yes, all this I permit to be, for it is what you desire and seek,
 and Desire is truly the agent of My Will.
 
 You may be even giving to some other teacher, -- either in the seen or
 the unseen and no matter how true, well-meaning and spiritually wise,
--- who you think cannot be classed with the kind just mentioned, your
+who you think cannot be classed with the kind just mentioned, your
 unquestioning love, devotion and obedience, and you may be receiving
 what you think are teachings and guidance of inestimable value.
 
@@ -120,7 +116,7 @@ does My Son Jesus, the Man of Nazareth, through Whom I AM even now
 expressing as I did express two thousand years ago, and as I some day
 shall express through you.
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+<hr>
 
 To you who wonder how and why I say such beautiful and such spiritual
 things through personalities who fail to live up to the teachings they

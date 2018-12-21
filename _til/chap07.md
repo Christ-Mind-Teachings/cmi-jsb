@@ -46,7 +46,7 @@ Devil, is manifesting in the world, opposing My Will.
 
 Yes, you think all these things are so.
 
-They are -- to you, for all things are to man's mortal consciousness
+They are to you, for all things are to man's mortal consciousness
 what he thinks or believes they are.
 
 I have likewise caused them to appear to man to be what he thinks they
@@ -55,7 +55,7 @@ creating.
 
 Let us see if this is not true.
 
-If you believe a thing is so, is not that thing really so -- to you?
+If you believe a thing is so, is not that thing really so to you?
 
 Is it not true that a thing seems real to you, like some sin or evil,
 so-called, some sorrow, trouble or worry, only because your thinking
@@ -94,10 +94,10 @@ change in thinking, is by first changing your attitude toward all
 these things you now think are not what they ought to be.
 
 That is, if they are unsatisfactory or obnoxious to you and affect you
-so as to cause you discomfort of body or disturbance of mind, --why,
+so as to cause you discomfort of body or disturbance of mind, why,
 stop thinking that they can so affect or disturb you.
 
-For who is the master? -- Your body, your mind, or You, the I AM
+For who is the master? Your body, your mind, or You, the I AM
 within?
 
 Then why not show You are master, by thinking the true things the I AM
@@ -155,7 +155,7 @@ Idea.
 Once I have given your human mind a view of Its possibilities, and
 have enlisted your interest, then does your human personality take up
 its task; for as I created and inspired the Idea in your mind, so did
-I cause that Idea to fructify therein and give birth to Desire, --
+I cause that Idea to fructify therein and give birth to Desire, 
 desire to bring into outer manifestation all the possibilities of the
 Idea, Desire thus becoming the mortal agent of My Will and supplying
 the motive Power; just as the human personality is the mortal
@@ -192,9 +192,9 @@ of the Idea. When the Word is spoken, either silently or audibly,
 consciously or unconsciously, this substance at once begins to
 materialize Itself, by first directing and controlling the consciousness
 and all the activities of both mind and body, and of all minds and all
-bodies connected with or related to the Idea, -- for remember, all
+bodies connected with or related to the Idea, for remember, all
 consciousness, and all minds and all bodies are Mine, and are not
-separated but are One and wholly Impersonal, -- and then so attracting,
+separated but are One and wholly Impersonal, and then so attracting,
 directing, shaping and molding conditions, things and events that,
 sooner or later, the Idea actually comes forth into definite, tangible
 manifestation.
@@ -217,12 +217,12 @@ all Creation.
 
 Listen! You have now and always have had, through this power of
 thinking, dominion over all the kingdoms of the Earth. If you but know
-it. You have now, this moment, only to Think and SPEAK THE WORD, --
+it. You have now, this moment, only to Think and SPEAK THE WORD, 
 realizing your power, and that I, God, your Omniscient, Omnipresent,
-Omnipotent Self, will bring about the results, -- and the waiting
+Omnipotent Self, will bring about the results, and the waiting
 consciousness of the invisible cells of all matter upon which your
-will and attention become focused, -- which waiting consciousness is
-My consciousness, remember, -- will begin immediately to obey and do
+will and attention become focused, which waiting consciousness is
+My consciousness, remember, will begin immediately to obey and do
 exactly according to the image or plans you have prepared by you
 thinking.
 
@@ -238,15 +238,14 @@ which is eternally expressing Itself Impersonally through you.
 
 But it is first wholly necessary that you learn HOW to think, how to
 know Your thoughts, those directed by Me, from the thoughts of others;
-how to trace thoughts back to their source and to
-
-banish undesirable ones at will from your consciousness; and finally
-how to control and utilize your desires so that they will always serve
-YOU, instead of your being a slave to them.
+how to trace thoughts back to their source and to banish undesirable
+ones at will from your consciousness; and finally how to control and
+utilize your desires so that they will always serve YOU, instead of your
+being a slave to them.
 
 You have within you all possibilities. For I AM there. My Idea must
 express, and It must express through you. It will express itself
-perfectly --- if you but let it; if you will only still your human mind,
+perfectly, if you but let it; if you will only still your human mind,
 put aside all personal ideas, beliefs and opinions, and let if flow
 forth. All you need to do is to turn within to Me, and let Me direct
 your thinking and your desires, let Me express whatever I will, you

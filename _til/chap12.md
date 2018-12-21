@@ -93,12 +93,10 @@ consciousness is My Consciousness. You cannot even think, much less
 breathe or exist without My Consciousness being in you, -- Can you not
 see it?
 
-Well, then, think, believe you are I, that We are not separated, that
-We could not possibly be separated; for WE are ONE, -- I within You,
-and You within Me, Think this is so; determinedly
-
-image it as so; and verily the moment you are conscious of this, that
-moment are you with Me in Heaven.
+Well, then, think, believe you are I, that We are not separated, that We
+could not possibly be separated; for WE are ONE, I within You, and You
+within Me, Think this is so; determinedly image it as so; and verily the
+moment you are conscious of this, that moment are you with Me in Heaven.
 
 You are what you believe you are. Not one thing in your life is Real or
 has any value to you only as your thinking and believing has made it
@@ -152,7 +150,7 @@ weaknesses, faults and shortcomings, as well.
 But the reason you are enabled to see these faults and shortcomings,
 is not that you may criticize or judge your brother, but that I may
 arouse in you a definite resolve to overcome such faults and
-shortcomings in your own personality. For, mark you! -- You would take
+shortcomings in your own personality. For, mark you! You would take
 no note of them in others were they not still in your self; for I
 within, then would not need to call them to your attention.
 
@@ -162,7 +160,7 @@ hitherto made of other faculties, gifts and powers I have given you.
 You must realize by this time I have allowed you all things. All you
 have, or are, be it of good or evil, of blessing or suffering, of
 success or failure, of riches or lack, I have allowed you or attracted
-to you. -- Why? For USE -- in awakening you to a recognition and
+to you. Why? For USE in awakening you to a recognition and
 acknowledgment of Me as The Giver.
 
 You could not honestly acknowledge Me as such until you knew I AM, The
@@ -202,17 +200,15 @@ I may even be healing through you diverse diseases, casting out
 devils, making the blind to see and the lame to walk, and performing
 other marvelous works which the world calls miracles.
 
-Yes, all these I may be doing through you, but of absolutely no
-benefit is any of it to you personally, unless you use and apply these
-harmonies of sound in your every spoken word, so
-
-that to all hearers they will seem as the sweet music of heaven; and
-unless your sense of color and proportion so manifests in your life
-that only kind, uplifting, helpful thoughts flow from you, proving
-that the only true art is that of seeing clearly My Perfection in all
-My human expressions, and of allowing the quickening power of My Love
-to pour through you into their heart, picturing to their inner vision
-My Image hidden therein.
+Yes, all these I may be doing through you, but of absolutely no benefit
+is any of it to you personally, unless you use and apply these harmonies
+of sound in your every spoken word, so that to all hearers they will
+seem as the sweet music of heaven; and unless your sense of color and
+proportion so manifests in your life that only kind, uplifting, helpful
+thoughts flow from you, proving that the only true art is that of seeing
+clearly My Perfection in all My human expressions, and of allowing the
+quickening power of My Love to pour through you into their heart,
+picturing to their inner vision My Image hidden therein.
 
 Likewise no credit attaches to you, no matter what wonderful Truths I
 speak or works I perform through you, unless you, yourself, live these
@@ -222,7 +218,7 @@ and for all, to use in My Service.
 
 You, to whom I have apparently given none of such gifts and who deem
 yourself unworthy and not yet advanced enough to serve Me in such
-ways, -- to you I would say:
+ways, to you I would say:
 
 Just to the extent that you truly recognize Me within and seek in real
 earnestness to serve Me, just to that extent will I use you -- no

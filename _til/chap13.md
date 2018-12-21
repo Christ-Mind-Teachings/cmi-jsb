@@ -113,7 +113,7 @@ I do them while expressing My Idea, Which is ever seeking
 manifestation in outer form as Perfection through you, My living
 Attribute, even as it is in the Eternal, within.
 
-As for your true "Soul Mate," which you have been led by others to
+As for your true &ldquo;Soul Mate,&rdquo; which you have been led by others to
 believe must be waiting for you somewhere, cease looking; for it
 exists not without in some other body, but within your own Soul.
 

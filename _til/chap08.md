@@ -34,27 +34,27 @@ outer manifestation.
 
 I plant in man's brain an Idea -- any idea. That idea would grow,
 mature and speedily ripen into complete outer fruition or
-manifestation, -- if man only would let it, would give his mind and
+manifestation, if man only would let it, would give his mind and
 all its thoughts, his heart and all its desires wholly over to Me, and
 let Me come forth as the perfect fulfillment of that Idea.
 
 I will now plant in your brain-mind an Idea. May It grow, mature and
-ripen into the glorious harvest of Wisdom which is awaiting you, -- if
+ripen into the glorious harvest of Wisdom which is awaiting you, if
 you let Me direct Its growth and expression through you.
 
 In one of My other Revelations, called the Bible, you are told much
-about "The Word" but very few, even the most learned Bible students,
+about &ldquo;The Word&rdquo; but very few, even the most learned Bible students,
 comprehend My meaning.
 
 You are told that:
 
-"In the beginning was the Word, and the Word was with God, and the
+&ldquo;In the beginning was the Word, and the Word was with God, and the
 Word was God.
 
-"The same was in the beginning with God.
+The same was in the beginning with God.
 
-All things were made by him, -- by the Word, -- and without Him -- the
-Word -- was not anything made that was made."
+All things were made by him, by the Word, and without Him -- the
+Word -- was not anything made that was made.&rdquo;
 
 You shall learn herein how My Word was in the beginning, how It was with
 Me, and how It was I, My Self; how all things were made by Me and by My

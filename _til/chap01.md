@@ -1,5 +1,5 @@
 ---
-title: &ldquo;I AM&ldquo;
+title: I AM
 ---
 
 To you who read, I speak.

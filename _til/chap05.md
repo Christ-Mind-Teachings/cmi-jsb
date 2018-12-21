@@ -1,6 +1,6 @@
-&ndash;-
+---
 title: "Consciousness, Intelligence, Will"
-&ndash;-
+---
 
 Yes, I know the many mixed thoughts that have been crowding into your
 mind as you read, &ndash; the doubts and eager questionings, the vague fear

@@ -3,7 +3,7 @@ title: "Masters"
 ---
 
 You, who are still holding to the idea, taught in various teachings,
-that I will provide a "Master" or Divine Teacher for each aspirant
+that I will provide a &ldquo;Master&rdquo; or Divine Teacher for each aspirant
 towards union with Me, hear My Words.
 
 It is true I have permitted you in the past to delve into all kinds of
@@ -14,7 +14,7 @@ consciousness of the possession of such powers.
 
 I have even permitted the belief that by practicing certain exercises,
 breathing in a certain way, and saying certain mantrams, you might
-attract to you a "Master" from the unseen, who would become your
+attract to you a &ldquo;Master&rdquo; from the unseen, who would become your
 teacher and help you to prepare for certain initiations that would
 admit you into an advanced Degree, in some secret Order in the inner
 planes of existence, where much of My Divine Wisdom would be opened up
@@ -22,7 +22,7 @@ to you.
 
 I have not only permitted these things, but, if you can see it, it was I
 who led you to these books, inspired in you such desire, and caused such
-belief to find lodgment in your mind; -- but not for the purpose you
+belief to find lodgment in your mind; but not for the purpose you
 imagine.
 
 Yes, I have brought you through all these teachings, desires and
@@ -49,7 +49,7 @@ Now I have purposely permitted you to indulge yourself with such
 delusions, letting you long, and pray, and strive earnestly to obey all
 the instructions given; even leading you on, sometimes, by giving you
 glimpses, in self-induced visions and dreams, of ideal beings, which I
-permitted you to believe were such "Masters."
+permitted you to believe were such &ldquo;Masters.&rdquo;
 
 I may even have caused to open in you certain faculties, which make it
 possible for you to sense the presence of personalities that have
@@ -59,26 +59,27 @@ your desires and seek to fulfill the part of Master and Guide to you.
 Now the time has come for you to know that such beings are not
 Masters, also that Divine Beings do not call themselves Masters; that
 I, and I alone, your own Real Self, AM the only Master for you now,
-and until you are able to know Me also in your brother; --
+and until you are able to know Me also in your brother;
 
 That any being, either in human or spirit form, that presents himself to
 your consciousness and claims to be a Master, or who permits you to call
 him Master, is nothing more nor less than a personality, the same as
 yours, and therefore is not Divine, as your human mind understands that
-term, despite the many wonderful "truths" he may utter, and the
-"marvelous" things he may do.
+term, despite the many wonderful &ldquo;truths&rdquo; he may utter, and the
+&ldquo;marvelous&rdquo;" things he may do.
 
 Just so long as your human mind seeks or worships the idea of a Master
 in any other being, no matter how lofty or sacred he may seem to you,
 just so long will you be fed with such ideas; until, verily, I may
-perhaps, permit you to meet and commune with such a "Master."
+perhaps, permit you to meet and commune with such a
+&ldquo;Master.&rdquo;
 
-If that "privilege" is vouchsafed you, it will be only in order to
+If that &ldquo;privilege&rdquo; is vouchsafed you, it will be only in order to
 hasten your awakening and your consequent disillusionment, when you
-will learn that "Master" is indeed but a personality, even
+will learn that &ldquo;Master&rdquo; is indeed but a personality, even
 
 though far more advanced in awakening than you, but still a
-personality--- and not the Divine One your innermost Soul is yearning
+personality &mdash; and not the Divine One your innermost Soul is yearning
 for you to know.
 
 For I feed you with every idea that will operate to teach you the
@@ -123,13 +124,13 @@ deigned to listen.
 You who have not yet had this experience, who have not yet met the
 Master of your aspirations, either in human or spirit form; you, within
 whom My Words have failed to awaken a quickening response to their
-truth, -- for you I have in store certain experiences which will surely
+truth, for you I have in store certain experiences which will surely
 lead you to Me later on, and then you will be brought to know that I AM
 the Master, the inspiring Idea back of and within every thought of and
 every aspiration towards a Master that enters your mind, whether coming
 from within or without.
 
-It is taught, "When the pupil is ready the Master appears." And this
+It is taught, &ldquo;When the pupil is ready the Master appears.&rdquo; And this
 is true, in a sense; but not as you have interpreted it.
 
 Your secret desire for a Master will bring him to you, but only when I
@@ -141,7 +142,7 @@ in your own wife or husband or child.
 
 You, who have risen above Desire, you who no longer seek a Master or a
 Teacher, or even Me, but are abiding alone in the faith of My Eternal
-Presence and Promise, -- for you I have in store a meeting and a
+Presence and Promise, for you I have in store a meeting and a
 communion, which will bring to your Soul such joy and blessings as your
 human mind is incapable of conceiving.
 
@@ -170,11 +171,11 @@ You are a human personality, yet You are Divine and therefore Perfect.
 
 The first of these truths you believe, the latter you do not believe.
 
-Yet both are true. -- That is the mystery.
+Yet both are true. That is the mystery.
 
 You are just what you think You are.
 
-One or the other, which are you? -- Or both?
+One or the other, which are you? Or both?
 
 You are One with Me. I AM in You, in Your human personality, in Your
 body, mind and intellect. I AM in every cell of Your body, in every
@@ -194,7 +195,7 @@ seek, and when you do find Me, and know I AM your Self, then will you in
 your human consciousness gladly become My Disciple, will lovingly wait
 upon Me, and will be concerned only that you faithfully serve Me, both
 within yourself and within your fellow men. And then will you understand
-why only "One is your Master, even Christ."
+why only &ldquo;One is your Master, even Christ&rdquo;.
 
 For I as the Christ dwell in all men and AM their One and Only Self.
 Through all men I AM ever calling to you and trying to reach and impress
@@ -203,7 +204,7 @@ through all men but through every avenue needed at the time, I have many
 ways of reaching your consciousness and utilize all to bring you to a
 realization of My Meaning.
 
-I speak with many voices, -- with the voice of all human emotions,
+I speak with many voices, with the voice of all human emotions,
 passions and desires. I speak with Nature’s voice, with the voice of
 Experience, even with the voice of human knowledge.
 
@@ -221,7 +222,7 @@ personality.
 
 Then also will you understand why in your personal, separate
 consciousness you could never recognize or know a real Master should
-you meet Him in a physical body, -- that not until you are able to
+you meet Him in a physical body, that not until you are able to
 enter into your Christ Consciousness, My Consciousness within you and
 within Him, He would not exist to you other than perhaps as a kind and
 helpful friend or teacher.
@@ -248,7 +249,7 @@ found only within, hidden deep within your own Soul.
 
 Since the earliest days of expression on Earth I have prepared My
 Priests and My Prophets and My Messiahs to vision forth to the world
-My Idea -- My Word that shall finally become flesh.
+My Idea &ndash; My Word that shall finally become flesh.
 
 But whether I speak through Priest, Prophet or Messiah, or through a
 little child, or through your worst enemy, all words that appeal
@@ -275,7 +276,7 @@ intend for each of them.
 
 When two or three are gathered together in My Name, there will I
 always be; for the Idea which draws them together I, within each,
-inspire -- for it is My Idea. From the union of their aspirations
+inspire &ndash; for it is My Idea. From the union of their aspirations
 towards Me do I create a medium or channel through which I enable the
 Soul consciousness to gain such glimpses of Me as each is capable of
 comprehending.
@@ -291,7 +292,7 @@ nevertheless, there are those whom I lead to these, My Ministers, in
 whom, through certain words I cause My Ministers to speak, together with
 the Spiritual Force furnished by the various aspirants, I am enabled to
 awaken their Soul consciousness to a real comprehension of Me, the
-Impersonal One, seated within -- in the very midst of All, in the heart
+Impersonal One, seated within &ndash; in the very midst of All, in the heart
 of each.
 
 For the I AM of My Minister, and the I AM of each follower are One,

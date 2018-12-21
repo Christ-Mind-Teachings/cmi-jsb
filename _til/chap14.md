@@ -27,7 +27,7 @@ philosophies and cults that now are interesting you, and you grow
 discouraged at finding yourself no nearer the attainment of the powers
 and spiritual growth so authoritatively described and supposedly
 possessed by the writers of the books, the teachers of the philosophies
-and the promulgators of the religions, -- then will I show you that
+and the promulgators of the religions, then will I show you that
 while all these books, teachings and religions were originally inspired
 by Me, and have done and
 
@@ -103,7 +103,7 @@ What have You, the Perfect, the Eternal, to do with past or future
 incarnations? Can the Perfect add to Its perfection? Or the Eternal
 come out of or return to eternity?
 
-I AM, and You Are, -- ONE with Me, -- and always have been, and always
+I AM, and You Are, ONE with Me, and always have been, and always
 will be. The I AM of You dwells in and reincarnates in ALL bodies, for
 the one purpose of expressing My Idea.
 

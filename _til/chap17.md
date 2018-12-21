@@ -25,36 +25,32 @@ personalities must pass through before you, My human Attributes, who
 created these personalities, can again become Impersonal enough to be
 conscious expressors with Me of My Divine Idea.
 
-All of you, My human Attributes, before the I AM within can awaken
-your human minds to a realization of Me, your Divine Self must be born
-of a Virgin Love in a humble manger -- the place where the cattle come
-to feed (the humble and contrite heart filled with faith and trust in
-God, to which state the human or animal nature must come). You must
-then be taken into Egypt, the land of darkness (or intellectual
-activity), there to grow and thrive in body and understanding
-
-until you become strong with the feeling of Me within. Then, when you
-are sufficiently conscious of My Power and My Love, will I begin to
-speak through you words of Wisdom and Truth, which will confound the
-learned of the world, even the Doctors of the Law. Then will follow a
-long period of study and meditation, which ripens the mind and
-develops the Soul, until you arrive at full maturity of the I AM
-Consciousness within, and which prepare you for your baptism in the
-Jordan, when you will be opened completely to Me, to the full
-consciousness that You and I are One, that there is no separation,
-that I AM your Real Self; and I AM henceforth permitted wholly to
-direct your lives.
+All of you, My human Attributes, before the I AM within can awaken your
+human minds to a realization of Me, your Divine Self must be born of a
+Virgin Love in a humble manger -- the place where the cattle come to
+feed (the humble and contrite heart filled with faith and trust in God,
+to which state the human or animal nature must come). You must then be
+taken into Egypt, the land of darkness (or intellectual activity), there
+to grow and thrive in body and understanding until you become strong
+with the feeling of Me within. Then, when you are sufficiently conscious
+of My Power and My Love, will I begin to speak through you words of
+Wisdom and Truth, which will confound the learned of the world, even the
+Doctors of the Law. Then will follow a long period of study and
+meditation, which ripens the mind and develops the Soul, until you
+arrive at full maturity of the I AM Consciousness within, and which
+prepare you for your baptism in the Jordan, when you will be opened
+completely to Me, to the full consciousness that You and I are One, that
+there is no separation, that I AM your Real Self; and I AM henceforth
+permitted wholly to direct your lives.
 
 I then lead you out into the world, called in My other Revelation the
-Wilderness, there to try you and make you strong and to accustom you
-to the Impersonal use of My Divine Attributes I bring to you three
-great Temptations of Power, Self-Righteousness, and Money, until you
-have proven that nothing of the intellect, nothing of the self,
-nothing from without, can tempt you to forget Me within, and that My
-Voice and Mine alone, whether speaking in your heart or in the hearts
-of
-
-your brothers, is the only Voice you are now capable of hearing.
+Wilderness, there to try you and make you strong and to accustom you to
+the Impersonal use of My Divine Attributes I bring to you three great
+Temptations of Power, Self-Righteousness, and Money, until you have
+proven that nothing of the intellect, nothing of the self, nothing from
+without, can tempt you to forget Me within, and that My Voice and Mine
+alone, whether speaking in your heart or in the hearts of your brothers,
+is the only Voice you are now capable of hearing.
 
 This proven, there will begin the period of performing miracles and of
 teaching the multitude, accompanied by the revilement and persecution
@@ -158,7 +154,7 @@ is necessary to that organ's perfect functioning and to the perfect
 health of My Body. So that unless each cell gives up all its power and
 all its intelligence, which are but attributes of the Life I give it,
 toward the perfect functioning of My entire Body, the only result for
-My Body can be inharmony, with its consequent effects, -- disease,
+My Body can be inharmony, with its consequent effects, disease,
 suffering, sin, bondage, poverty, lack of understanding,
 disintegration, or death.
 

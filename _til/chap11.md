@@ -20,7 +20,7 @@ had you to earn your bread.
 Having taken upon yourself this Earthly mission, it now became
 necessary for you to enter fully into all conditions of Earth life, in
 order to develop a mind and perfect a body capable of expressing
-perfectly My Idea on Earth, -- the real cause and reason of your
+perfectly My Idea on Earth, the real cause and reason of your
 entering into this Dream condition.
 
 So having fallen or stepped out of your Impersonal or Edenic estate,
@@ -68,7 +68,7 @@ order to lead you consciously into the heart of Earth conditions.
 
 While this false vision, inspired by Desire, caused many mis-steps and
 much trouble and suffering, and you gradually lost confidence in your
-Self -- in Me, the Impersonal One within, -- in fact, you forgot Me,
+Self -- in Me, the Impersonal One within, in fact, you forgot Me,
 so that you did not know where to turn in your helplessness; yet it
 was only through your thus losing the memory of your Divine estate,
 and centering all your consciousness in these Earthly conditions, that
@@ -82,7 +82,7 @@ caused the Idea of Evil to spring up in your mind, and likewise when
 these troubles were not It inspired the Idea of Good.
 
 To all appearances of things and conditions you attributed these
-qualities of Good or Evil, -- according to whether or not they
+qualities of Good or Evil, according to whether or not they
 satisfied Desire My Agent, in Reality My human Self, or You, in your
 human personality.
 
@@ -105,25 +105,22 @@ recognition of and obedience to its urge, was now permitting you to
 enjoy its happy and natural effects, and to receive the outward
 benefits of My loving inspiration and guidance.
 
-This you, who was being led by Desire through all these experiences,
-was only your human personality, which the Real you was training and
-developing and preparing so it could become a
+This you, who was being led by Desire through all these experiences, was
+only your human personality, which the Real you was training and
+developing and preparing so it could become a perfect instrument for
+Your use in the expression of My Idea, ever seeking to manifest Its
+perfection in the flesh.
 
-perfect instrument for Your use in the expression of My Idea, ever
-seeking to manifest Its perfection in the flesh.
-
-All this You did, not only compelling your human personality to eat
-but to live on the fruit of the so-called Tree of Knowledge of Good
-and Evil, until you had seen and known all the so-called Evil, and
-from living on and with it had discovered in it the germ of so-called
-Good, plucked it, lifted it up, and turned it right-side out; so that
-you from that time on knew that Good and Evil had no real existence,
-and were but relative terms descriptive of outside conditions looked
-at
-
-from different viewpoints, or were only different outer aspects of a
-central inner Truth, the Reality of which was what You sought to Know,
-Be and Express.
+All this You did, not only compelling your human personality to eat but
+to live on the fruit of the so-called Tree of Knowledge of Good and
+Evil, until you had seen and known all the so-called Evil, and from
+living on and with it had discovered in it the germ of so-called Good,
+plucked it, lifted it up, and turned it right-side out; so that you from
+that time on knew that Good and Evil had no real existence, and were but
+relative terms descriptive of outside conditions looked at from
+different viewpoints, or were only different outer aspects of a central
+inner Truth, the Reality of which was what You sought to Know, Be and
+Express.
 
 During the latter ages you have been, as it were, gradually throwing
 off layer after layer of human consciousness, dissipating the mist or
@@ -145,7 +142,7 @@ You, remember, are the Great Impersonal I, Who AM doing all this, Who
 AM continually changing in outward appearance, but Who within AM
 eternally the same.
 
-The endless flow of the Seasons, -- the Spring, with its busy sowing;
+The endless flow of the Seasons, the Spring, with its busy sowing;
 the Summer, with its warm, restful ripening; the Autumn, with its
 bounteous harvesting; the Winter, with its cool, peaceful plenty, year
 after year, life after life, century after century, age after age -
