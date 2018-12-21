@@ -11,8 +11,8 @@ Intelligence there is emanates from My Mind, all the Love there is flows
 from My Heart, all the Power there is, is but My Will in action.
 
 The threefold Force, manifesting as all Wisdom, all Love, all Power,
-or if you will, as Light, Heat, and Energy “ that which holds together
-all forms and is back of and in all expressions and phases of life, --
+or if you will, as Light, Heat, and Energy that which holds together
+all forms and is back of and in all expressions and phases of life,
 is but the manifestation of My Self in the act or state of Being.
 
 Nothing can Be without manifesting and expressing some phase of Me,

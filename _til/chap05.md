@@ -1,9 +1,9 @@
----
+&ndash;-
 title: "Consciousness, Intelligence, Will"
----
+&ndash;-
 
 Yes, I know the many mixed thoughts that have been crowding into your
-mind as you read, -- the doubts and eager questionings, the vague fear
+mind as you read, &ndash; the doubts and eager questionings, the vague fear
 that imperceptibly changed into a growing hope that this glimmering of
 My Meaning, which has begun to penetrate the darkness of your human
 intellect, may shine brighter so you can see clearly the Truth which you
@@ -29,7 +29,7 @@ You will see this, however, if you follow these My Words and obey the
 instructions herein given; for I will soon bring to your consciousness
 a Light that will illumine the deepest recesses of your mind and drive
 away all the clouds of human misconceptions, ideas and opinions that
-now darken your intellect, -- if you read on and strive earnestly to
+now darken your intellect, &ndash; if you read on and strive earnestly to
 comprehend My Meaning.
 
 So listen carefully.
@@ -45,9 +45,9 @@ capacity of your human mind. It is still My Consciousness, and when you
 can drive from your mind all its human misconceptions, ideas and
 opinions, and can cleanse and empty it utterly, so that My Consciousness
 can have a chance to express freely, then you will recognize Me and you
-will know that you are nothing -- being only a focal center of My
+will know that you are nothing &ndash; being only a focal center of My
 Consciousness, an avenue of medium through which I can express My
-meaning -- in matter.
+meaning &ndash; in matter.
 
 Perhaps you cannot see this yet, and of course cannot believe it until I
 fully prepare your mind by convincing your intellect of its truth.
@@ -93,7 +93,7 @@ your body is to You.
 
 Therefore, it must be that the consciousness of the cell of your body
 is My Consciousness, even as your consciousness is My Consciousness;
-and therefore We must be One in consciousness -- the cell, You and I.
+and therefore We must be One in consciousness &ndash; the cell, You and I.
 
 You cannot now consciously direct or control a single cell of your body;
 but when you can at will enter into the Consciousness of the I AM of you
@@ -105,14 +105,14 @@ your body? The body disintegrates, the cells separate, and their work
 for the time being is finished. But do the cells die or lose
 consciousness? No, they simply sleep or rest for a period, and after a
 while unite with other cells and form new combinations, and sooner or
-later appear in other manifestations of life, -- perhaps mineral,
+later appear in other manifestations of life, &ndash; perhaps mineral,
 perhaps vegetable, perhaps animal; showing that they still retain their
 original consciousness and but await the action of My Will to join
 together in a new organism to do the work of the new consciousness
 through which I desire to manifest.
 
 Then apparently this cell consciousness is a consciousness common to
-all bodies, -- mineral, vegetable, animal, human, -- each cell fitted
+all bodies, &ndash; mineral, vegetable, animal, human, &ndash; each cell fitted
 perhaps by experience for a certain general kind of work?
 
 Yes, this cell consciousness is common to every cell of every body, no
@@ -162,9 +162,8 @@ Power does to you, I at times allow you to commit a sin, so-called, or
 to make a mistake. I even permit you to become inflated with the sense
 of My Presence within you, when It manifests as a consciousness of My
 Power, My Intelligence, My Love; and I let you take these and use them
-for your own personal purposes. But not for long -- for, not being
+for your own personal purposes. But not for long &ndash; for, not being
 strong enough to control them, they soon take the bit
-
 in their teeth, run away with you, throw you down in the mire, and
 disappear from your consciousness for the time being.
 

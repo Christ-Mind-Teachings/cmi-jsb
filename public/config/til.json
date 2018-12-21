@@ -12,17 +12,20 @@
     {
       "title": "Be Still and Know I AM God",
       "url": "/til/chap02/",
-      "audio": "/til/chap02.mp3"
+      "audio": "/til/chap02.mp3",
+      "timing": "/til/chap02.json"
     },
     {
       "title": "I, Life, God",
       "url": "/til/chap03/",
-      "audio": "/til/chap03.mp3"
+      "audio": "/til/chap03.mp3",
+      "timing": "/til/chap03.json"
     },
     {
       "title": "For I AM Life",
       "url": "/til/chap04/",
-      "audio": "/til/chap04.mp3"
+      "audio": "/til/chap04.mp3",
+      "timing": "/til/chap04.json"
     },
     {
       "title": "Consciousness, Intelligence, Will",
