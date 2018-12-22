@@ -296,14 +296,14 @@ much importance, and letting Me remain only a side issue?
 
 If it becomes necessary for you to be deprived of the things of the
 world that you may learn the Truth, -- that I AM the only important
-thing in Life, that I must be FIRST if you truly love Me, -- I permit
+thing in Life, that I must be FIRST if you truly love Me, I permit
 this that real and lasting Happiness and Prosperity can be yours.
 
 This applies to you also, My Child, you who have lost health, have
 lost courage, have lost all hold of your Self, and after weary years
 of seeking without from Earthly physicians and remedies, following
 faithfully every instruction and suggestion given, in order to regain
-the Life you have lost, -- you who have turned finally within to Me,
+the Life you have lost, you who have turned finally within to Me,
 with the faint hope that I may be able to help you.
 
 Know, My Little One, that you, too, must come in complete surrender to

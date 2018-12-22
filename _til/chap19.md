@@ -92,7 +92,7 @@ In your homes particularly will I dwell, Through those nearest you
 will I teach you many wonderful things, which now you can understand,
 when before you passionately rebelled against their truth. Through
 husband, wife, child, brother, sister, parent, will I now be able to
-develop in you these great qualities, -- patience, gentleness,
+develop in you these great qualities, patience, gentleness,
 forebearance, tongue-control, loving-kindness, true unselfishness, and
 an understanding heart; for I will cause you to see that I AM deep
 down in their hearts as I AM in yours.
@@ -112,7 +112,7 @@ teacher is in your own home, by your own fireside. Much, very much is
 reserved for those who consciously know this and permit Me, the
 Impersonal One within, to do the teaching. For I will not only teach
 you many things through the mouths of those nearest you, but I will
-teach those others similarly through you, -- but with this difference:
+teach those others similarly through you, but with this difference:
 if you are conscious of Me and Impersonally are resting in Me and My
 Wisdom, then you will permit Me to inspire your words and to empower
 your acts, and you will not be concerned about their effects upon
@@ -164,7 +164,7 @@ You who read, and whose Soul comprehends, are blessed, and your work
 lies before you.
 
 But you who still hesitate while your personality quakes in fear as
-the Light filters through your clouded intellect, -- you, too, will
+the Light filters through your clouded intellect, you, too, will
 soon partake of My Blessings; for I AM rapidly preparing you for the
 joy that awaits.
 

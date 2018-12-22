@@ -74,13 +74,12 @@ just so long will you be fed with such ideas; until, verily, I may
 perhaps, permit you to meet and commune with such a
 &ldquo;Master.&rdquo;
 
-If that &ldquo;privilege&rdquo; is vouchsafed you, it will be only in order to
-hasten your awakening and your consequent disillusionment, when you
-will learn that &ldquo;Master&rdquo; is indeed but a personality, even
-
-though far more advanced in awakening than you, but still a
-personality &mdash; and not the Divine One your innermost Soul is yearning
-for you to know.
+If that &ldquo;privilege&rdquo; is vouchsafed you, it will be only in
+order to hasten your awakening and your consequent disillusionment, when
+you will learn that &ldquo;Master&rdquo; is indeed but a personality,
+even though far more advanced in awakening than you, but still a
+personality &mdash; and not the Divine One your innermost Soul is
+yearning for you to know.
 
 For I feed you with every idea that will operate to teach you the
 reality back of the seeming, and if I lead you on to apparent
@@ -151,7 +150,7 @@ justified in claiming the above as not consistent with certain
 statements herein, and as contradicting teachings in My other
 Revelations.
 
-Fear not; this mystery will be revealed unto you - if you truly wish
+Fear not; this mystery will be revealed unto you if you truly wish
 to know My Meaning.
 
 Until then, why, in your seeking, be satisfied with anything short of
@@ -246,79 +245,4 @@ and come to Me in complete abandon, acknowledging Me and My
 Impersonality as the only Model and Ideal, and as the true Cause which
 inspired your long search without for My Perfection, that could be
 found only within, hidden deep within your own Soul.
-
-Since the earliest days of expression on Earth I have prepared My
-Priests and My Prophets and My Messiahs to vision forth to the world
-My Idea &ndash; My Word that shall finally become flesh.
-
-But whether I speak through Priest, Prophet or Messiah, or through a
-little child, or through your worst enemy, all words that appeal
-vitally to you are the words the I AM of You speaks through the
-organism of such medium to your Soul consciousness.
-
-Should a number be gathered together to hear My Word spoken through
-one of My Priests, it is not the Priest of himself but I, in the heart
-of each hearer, Who draw from the Priest the vital words that sink
-deep into the consciousness of each. The Priest knows not what he says
-that so affects you, and may not even comprehend My Meaning of the
-words he speaks to you.
-
-I within him do draw from the combined devotion to and belief in Me,
-consciously and unconsciously expressed by all those gathered around
-him, the Spiritual Force which serves as a channel or a connecting
-line through or over which I reach the consciousness of those minds I
-have prepared to comprehend My Meaning. For although I speak the same
-words to all, yet these words contain a distinct and separate message
-for each, and no one knows any but the message I speak to him; for I
-within you choose from the words the meaning I intend for you, and I
-within your brother and your sister likewise choose the meaning I
-intend for each of them.
-
-When two or three are gathered together in My Name, there will I
-always be; for the Idea which draws them together I, within each,
-inspire &ndash; for it is My Idea. From the union of their aspirations
-towards Me do I create a medium or channel through which I enable the
-Soul consciousness to gain such glimpses of Me as each is capable of
-comprehending.
-
-Every Priest, every Teacher, every Medium, I cause instinctively to know
-this, for they are My chosen Ministers; and I likewise cause to awaken
-in them a desire to surround themselves with followers, that I may
-quicken, in the hearts of those who are ready a consciousness of My
-Presence within. The Priest, the Teacher, or the Medium, themselves, may
-never have recognized Me within, and may be deeming Me as entitized or
-personalized in some master or guide or saviour without themselves; but
-nevertheless, there are those whom I lead to these, My Ministers, in
-whom, through certain words I cause My Ministers to speak, together with
-the Spiritual Force furnished by the various aspirants, I am enabled to
-awaken their Soul consciousness to a real comprehension of Me, the
-Impersonal One, seated within &ndash; in the very midst of All, in the heart
-of each.
-
-For the I AM of My Minister, and the I AM of each follower are One,
-one in consciousness, one in understanding, one in love, and one in
-purpose, which purpose is the fulfillment of My Will.
-
-This I AM, which is wholly Impersonal, and knows neither time, space
-nor different identities, merely utilizes the personalities of both
-Minister and followers, and the circumstance of personal contact, as a
-means of giving voice to My Idea, ever struggling within for outer
-expression.
-
-Those Ministers who take the confidence and trust of My followers, and
-use it to further their own private purposes, I cause to awaken to a
-recognition of My Will and My Idea all in proper season. This
-awakening, however, is not pleasant to their personalities, and almost
-always causes much suffering and humiliation; but their souls rejoice
-and sing grateful praises to Me when I bring it to pass.
-
-Therefore, wonder not at the sometimes wonderful words of Truth that
-come from mouths apparently unfit to speak them and comprehending not
-their meaning; nor at the fact that simple followers oftentimes awaken
-faster than and grow beyond their teachers. I Who dwell within both
-teacher and follower choose different conditions and provide different
-ways for the expression of My Attributes in each different Soul, fitting
-each into just the time and place where they can complement and help
-each other the best; thus uniting all into the most harmonious
-expression of My Idea possible under the circumstances.
 

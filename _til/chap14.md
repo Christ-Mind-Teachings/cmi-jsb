@@ -7,7 +7,7 @@ find an explanation of the mysteries that now hide from you the
 meaning of the Earthly expressions of My Idea, I say:
 
 It is well that you seek thus outwardly, following the impulses I send,
-for others -- interpretations of the meaning My Idea is expressing
+for others interpretations of the meaning My Idea is expressing
 through them; for I will make that search to be of benefit to you,
 though not in the way you imagine.
 
@@ -19,7 +19,7 @@ But the time will come when you will realize that the thoughts of other
 minds and the teachings of other religions, no matter how true and
 beautiful, are not what I intend for you; for I have reserved for you
 thoughts and teachings which are yours and yours only, and which I will
-give to you in secret -- when you are ready to receive them.
+give to you in secret when you are ready to receive them.
 
 When the time comes, as it inevitably will, that you become dissatisfied
 in your search among the teachings of the various religions,
@@ -27,18 +27,16 @@ philosophies and cults that now are interesting you, and you grow
 discouraged at finding yourself no nearer the attainment of the powers
 and spiritual growth so authoritatively described and supposedly
 possessed by the writers of the books, the teachers of the philosophies
-and the promulgators of the religions, then will I show you that
-while all these books, teachings and religions were originally inspired
-by Me, and have done and
-
-are still doing their part in quickening the hearts of many, yet for you
-it is now meant that you cease looking to any outer authority, and
-instead confine your study to My Book of Life, guided and instructed by
-Me within, by Me alone. If you earnestly and truly do this, you will
-find that I have chosen you to be the High Priest of a religion, the
-glory and grandeur of which will be to all others that have been
-pictured to your former understanding, as the light of the Sun is to the
-twinkle of the far distant star.
+and the promulgators of the religions, then will I show you that while
+all these books, teachings and religions were originally inspired by Me,
+and have done and are still doing their part in quickening the hearts of
+many, yet for you it is now meant that you cease looking to any outer
+authority, and instead confine your study to My Book of Life, guided and
+instructed by Me within, by Me alone. If you earnestly and truly do
+this, you will find that I have chosen you to be the High Priest of a
+religion, the glory and grandeur of which will be to all others that
+have been pictured to your former understanding, as the light of the Sun
+is to the twinkle of the far distant star.
 
 You will likewise realize that the ancient religions were given to My
 peoples of long ages past, and that the religions of other races are
@@ -85,12 +83,11 @@ responsibility upon Me.
 You, who are one with Me, are perfect now, and always were perfect,
 knowing neither youth nor old age, birth nor death.
 
-You, the Perfect, have naught to do with what has been or what is to
-be. You care not for anything but the eternal NOW. That only concerns
-you which immediately confronts you, -- how
-
-perfectly to express My Idea here and now in the condition in which I
-have placed you purposely for such expression.
+You, the Perfect, have naught to do with what has been or what is to be.
+You care not for anything but the eternal NOW. That only concerns you
+which immediately confronts you, how perfectly to express My Idea
+here and now in the condition in which I have placed you purposely for
+such expression.
 
 When that has been done, why not leave it behind, instead of dragging
 it along with you, burdening your mind and soul with consequences

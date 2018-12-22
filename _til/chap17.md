@@ -82,7 +82,7 @@ Jesus, before you can come to this point and become a conscious
 expressor with Me of My Divine Idea. The example of the Christ Love
 and Compassion which I expressed in that Life must you also express in
 some degree in your life, before you can taste of the fruits of that
-Love, which in reality is not love, but the Holy Three-in-One, --
+Love, which in reality is not love, but the Holy Three-in-One,
 Love-Wisdom-Power, that is the true expression of My Impersonal Life.
 
 You heretofore have not known the meaning of the Impersonal Life, hence
@@ -126,7 +126,7 @@ vitalizing, creative, and uplifting Power.
 
 My Love considers not individuals or personalities; they are but pawns
 on the chess-board of life which I move as I deem best to accomplish My
-purpose, -- the full and complete expression in Humanity of My Divine
+purpose, the full and complete expression in Humanity of My Divine
 Idea.
 
 In Humanity only can I express My Idea, even as you can express your
@@ -161,14 +161,14 @@ disintegration, or death.
 Likewise, unless each organ gives up all the intelligence and all the
 powers with Which I endowed it, to the one purpose of expressing and
 maintaining the life of My Body in perfect health, the only result can
-be disorganization, disruption, rebellion, and finally WAR, -- war
+be disorganization, disruption, rebellion, and finally WAR, war
 between the various organs and between their respective cells, and a
 greater or lesser consequent chaotic condition in My whole Body.
 
 In My Body of Humanity this would mean war between Nations, which are
 the Organs of My Body. As all war is but acute disease or disharmony,
 and as My Life, which in Humanity manifests as Impersonal Love, can
-express only in harmony -- even as in the physical body, It is always
+express only in harmony &ndash; even as in the physical body, It is always
 utilizing, equalizing and preparing conditions so that It can thus
 express.
 

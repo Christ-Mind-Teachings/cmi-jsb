@@ -48,11 +48,10 @@ that the world about you was composed of and filled with such
 substance.
 
 This mist was only the effect of the Light of Truth being invisible to
-your human mind, whose intellect, like an imperfect lens, only
-befogged and twisted everything and made it appear as
-
-Real, keeping your consciousness continually busied with these myriad
-illusions of your Dream World.
+your human mind, whose intellect, like an imperfect lens, only befogged
+and twisted everything and made it appear as Real, keeping your
+consciousness continually busied with these myriad illusions of your
+Dream World.
 
 Now the intellect is a creature of and wholly controlled by Desire, and
 is not, as many suppose, a faculty of the Soul. In other words, this

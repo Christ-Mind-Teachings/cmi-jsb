@@ -163,9 +163,7 @@ same as other animals. For now, in order that You might enter into the
 heart of Earth conditions, into the real Earth, the Earth of My Idea,
 not the one of your Dream, so as to quicken My Idea therein into
 active life expression, You, My Attribute, had to have an organism and
-a covering appropriate to the conditions in which
-
-You were to manifest in your Dream.
+a covering appropriate to the conditions in which You were to manifest in your Dream.
 
 Likewise, in thus giving You a coat of skin, did I, by so doing,
 provide My Idea with a suitable form for Earthly expression, I gave

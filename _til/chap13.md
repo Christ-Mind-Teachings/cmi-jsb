@@ -24,7 +24,7 @@ purpose, then and then only will I give you the strength to step out
 of that position into a higher I have provided for you.
 
 Perhaps the husband or the wife you have, you think is far from being
-suited to you or capable of helping along your "spiritual" awakening,
+suited to you or capable of helping along your &ldquo;spiritual&rdquo; awakening,
 being only a hindrance and detriment, instead. You may even be
 secretly contemplating leaving or wishing you could leave that one for
 another who sympathizes and joins with you in your aspirations and
@@ -37,7 +37,7 @@ harder search among the illusions of the mind, before you can again
 awaken to the consciousness of My Voice speaking within.
 
 For a sympathetic and appreciative mate would only feed the personal
-pride and selfish desire for "spiritual" power in you, and develop
+pride and selfish desire for &ldquo;spiritual&rdquo; power in you, and develop
 further the egotistic side of your nature. Likewise, a loving, trusting,
 yielding mate might encourage only selfishness and conceit, when you are
 not yet abiding in the consciousness of My Impersonal Love; while a
@@ -47,10 +47,9 @@ still need.
 Did you but know it, the one who is your true Soul mate is in reality an
 Angel from Heaven, even as are You, one of the Attributes of My Divine
 Self, come to you to teach you that only when you have purged your own
-personality so that My Holy Love can express, can you be freed
-
-from any conditions which may now be causing you so much disturbance
-of mind and unhappiness of Soul.
+personality so that My Holy Love can express, can you be freed from any
+conditions which may now be causing you so much disturbance of mind and
+unhappiness of Soul.
 
 For not until this Soul, this Angel from Heaven, this other part of My
 and Your Self, who has come to you and is yearning and striving to
@@ -58,11 +57,11 @@ call into expression through you the Impersonal Love, the tender,
 thoughtful care for others, the poise of mind and peace of heart, the
 quiet, firm mastery of self, which and which alone can open the doors,
 so It can step forth into the freedom of Its own glorious Being and be
-to You Its own true Self, -- not until you can see this Soul in all
+to You Its own true Self, not until you can see this Soul in all
 Its Divine beauty, free of this Earthly bondage, will it ever be
 possible for you to find and recognize that Ideal you seek.
 
-For that Ideal exists, not without -- in some other personality, -- but
+For that Ideal exists, not without &ndash; in some other personality, but
 only within, in your Divine Counterpart, which is I, your Higher,
 Immortal Self. It is only My Idea of this, your Perfect Self, striving
 to express and become manifest through your personality, that causes you

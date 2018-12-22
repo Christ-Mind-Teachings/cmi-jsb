@@ -86,11 +86,11 @@ Your Mind. Then all things shall be Yours, as they now are Mine, being
 but the outer expression of My Idea, and existing only by reason of
 the consciousness I gave them when I thought them into being.
 
-It is all a matter of consciousness -- of your conscious thinking. You
+It is all a matter of consciousness &ndash; of your conscious thinking. You
 are separated from Me only because you think you are. Your mind is but
 a focal point of My Mind. If you but knew it, what you call your
 consciousness is My Consciousness. You cannot even think, much less
-breathe or exist without My Consciousness being in you, -- Can you not
+breathe or exist without My Consciousness being in you, can you not
 see it?
 
 Well, then, think, believe you are I, that We are not separated, that We
@@ -180,10 +180,10 @@ Perfection being My Perfection is gradually unfolding from within you.
 As you more and more realize this, will the true meaning and use of
 the things, conditions and experiences I send be revealed unto you.
 For you will then begin to glimpse My Idea within, and when you
-glimpse that Idea will you begin to know Me -- your own Real Self.
+glimpse that Idea will you begin to know Me &ndash; your own Real Self.
 
 Before you can truly know Me, however, you must learn that all things
-I give you are Good -- and that they are for use, My use, -- and that
+I give you are Good and that they are for use, My use, and that
 you personally have no interest in or actual right to them, and they
 are of no real benefit to you, only as you put them to such use.
 
@@ -221,7 +221,7 @@ yourself unworthy and not yet advanced enough to serve Me in such
 ways, to you I would say:
 
 Just to the extent that you truly recognize Me within and seek in real
-earnestness to serve Me, just to that extent will I use you -- no
+earnestness to serve Me, just to that extent will I use you &ndash; no
 matter what your personality, no matter what its faults, tendencies
 and weaknesses.
 
@@ -244,10 +244,9 @@ consciousness of Me, thinking you are doing nothing, are still making
 many mistakes and failing to live up to your highest ideals of Me; not
 realizing that this longing and hungering is the avenue through which I
 pour forth My Spiritual Power, which being wholly Impersonal, is used by
-you, unconscious of its being I within you using it, to bring about
-
-My Purpose in your heart and life and in the hearts and lives of My
-and Your other Selves.
+you, unconscious of its being I within you using it, to bring about My
+Purpose in your heart and life and in the hearts and lives of My and
+Your other Selves.
 
 So, as you finally grow into the realization of all this, as you
 surely will, and prove it by the practical use of all you have in My
