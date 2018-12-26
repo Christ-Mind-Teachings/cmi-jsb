@@ -53,21 +53,19 @@ carry you through certain experiences which I deem best adapted to
 bring you to this realization; and at the same time to quicken in you
 certain Soul qualities that now but imperfectly express.
 
-If you can but know Me, dwelling thus in your heart, accompanying you
-to your office, to your shop, to your labor, whatever it be, and will
+If you can but know Me, dwelling thus in your heart, accompanying you to
+your office, to your shop, to your labor, whatever it be, and will
 permit Me to direct your business and all your ways; verily I say unto
 you, when you can do this, you will at once become conscious of a new
 Power within you, a Power that will flow forth from you as a gentle,
-kindly sympathy, a true
-
-brotherliness, a loving helpfulness to all with whom you come in
-contact, inspiring them to higher principles of business and of life,
-creating in them a longing to shed a similar influence within their own
-circle; a Power that will attract to you business, money, friends, and
-abundance of all things you need; a Power that will connect you with the
-highest realms of thought, enabling you both to vision clearly and to
-manifest consciously all My Impersonal Powers and Attributes
-every moment of your life.
+kindly sympathy, a true brotherliness, a loving helpfulness to all with
+whom you come in contact, inspiring them to higher principles of
+business and of life, creating in them a longing to shed a similar
+influence within their own circle; a Power that will attract to you
+business, money, friends, and abundance of all things you need; a Power
+that will connect you with the highest realms of thought, enabling you
+both to vision clearly and to manifest consciously all My Impersonal
+Powers and Attributes every moment of your life.
 
 You will no longer feel any need to go to church or to religious
 meetings of any kind, or even to read the teachings of My Revelations,
