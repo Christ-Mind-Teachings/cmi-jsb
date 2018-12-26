@@ -108,12 +108,14 @@
     {
       "title": "Finding Me",
       "url": "/til/chap18/",
-      "audio": "/til/chap18.mp3"
+      "audio": "/til/chap18.mp3",
+      "timing": "/til/chap18.json"
     },
     {
       "title": "Union",
       "url": "/til/chap19/",
-      "audio": "/til/chap19.mp3"
+      "audio": "/til/chap19.mp3",
+      "timing": "/til/chap19.json"
     }
   ]
 }
