@@ -4309,7 +4309,7 @@ let config;
 function refreshNeeded(bid, fetchDate) {
   //values of lastChanged are loaded from webpack
   const lastChanged = {
-    til: 1545806431119
+    til: 1546752237293
   };
 
   if (lastChanged[bid] > fetchDate) {
@@ -35857,9 +35857,27 @@ function createClickHandlers() {
       Object(__WEBPACK_IMPORTED_MODULE_0__util_driver__["a" /* pageDriver */])();
     }
 
+    if ($(this).hasClass("page-navtour")) {
+      console.log("page Nav Driver");
+      Object(__WEBPACK_IMPORTED_MODULE_0__util_driver__["pageNavigationDriver"])();
+    }
+
     if ($(this).hasClass("transcript-tour")) {
       console.log("transcriptDriver");
-      Object(__WEBPACK_IMPORTED_MODULE_0__util_driver__["b" /* transcriptDriver */])();
+      Object(__WEBPACK_IMPORTED_MODULE_0__util_driver__["c" /* transcriptDriver */])();
+    }
+
+    if ($(this).hasClass("about-src")) {
+      location.href = "/about/";
+    }
+
+    if ($(this).hasClass("read-documentation")) {
+      location.href = "https://docs.christmind.info";
+    }
+
+    if ($(this).hasClass("view-documentation")) {
+      console.log("video documentation not ready yet");
+      //location.href = "";
     }
   });
 }
@@ -35877,7 +35895,7 @@ function createClickHandlers() {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function($) {/* harmony export (immutable) */ __webpack_exports__["a"] = pageDriver;
-/* harmony export (immutable) */ __webpack_exports__["b"] = transcriptDriver;
+/* harmony export (immutable) */ __webpack_exports__["c"] = transcriptDriver;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_driver_js__ = __webpack_require__(399);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_driver_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_driver_js__);
 
