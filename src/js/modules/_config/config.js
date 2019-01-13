@@ -22,13 +22,9 @@ let config;
 /* 
   check if config has changed since we last stored it
 */
-function refreshNeeded(bid, fetchDate) {
-  //values of lastChanged are loaded from webpack
-  const lastChanged = {
-    til: TIL_CONFIG
-  };
-
-  if (lastChanged[bid] > fetchDate) {
+function refreshNeeded(bid) {
+  if (location.hostname === "localhost") {
+    console.log("reloading config for %s", bid);
     return true;
   }
 

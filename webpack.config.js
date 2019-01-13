@@ -51,9 +51,6 @@ module.exports = {
     new webpack.ProvidePlugin({
       $: "jquery",
       jQuery: "jquery"
-    }),
-    new webpack.DefinePlugin({ 
-      TIL_CONFIG: JSON.stringify(Date.now())
     })
   ]
 };
