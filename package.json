@@ -1,7 +1,7 @@
 {
-  "name": "cmi-start",
+  "name": "cmi-jsb",
   "version": "0.1.0",
-  "description": "Start project for adding a source to the Library of Christ Mind Teachings",
+  "description": "The Impersonal Life by Joseph S. Benner",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -19,6 +19,7 @@
     "babel-preset-env": "^1.6.1",
     "concurrently": "^3.5.1",
     "css-loader": "^0.28.10",
+    "eslint": "^5.12.0",
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^1.1.11",
     "style-loader": "^0.20.3",

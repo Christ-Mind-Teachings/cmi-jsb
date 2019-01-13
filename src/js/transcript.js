@@ -111,7 +111,7 @@ $(document).ready(() => {
   //load config file and do initializations that depend on a loaded config file
   loadConfig(getBookId())
     .then(() => {
-      toc.initialize();
+      toc.initialize("transcript");
       search.initialize();
       audio.initialize();
       showParagraph();

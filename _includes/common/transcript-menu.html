@@ -40,13 +40,19 @@
         <i class="level up icon"></i>
       </span>
     </a>
-    {% if page.bid == "Questions" %}
-    <a href="#" data-book="{{page.contents | downcase}}" class="item toc-modal-open">
-    {% else %}
-    <a href="#" data-book="{{page.bid | downcase}}" class="item toc-modal-open">
-    {% endif %}
+    <a id="contents-modal-open" href="#" data-book="{{page.bid | downcase}}" class="item toc-modal-open">
       <span data-position="bottom center" data-tooltip="Show Contents">
         <i class="align justify icon"></i>
+      </span>
+    </a>
+    <a href="#" class="previous-page item">
+      <span data-position="bottom center" data-tooltip="Previous Page">
+        <i class="arrow circle left icon"></i>
+      </span>
+    </a>
+    <a href="#" class="next-page item">
+      <span data-position="bottom center" data-tooltip="Next Page">
+        <i class="arrow circle right icon"></i>
       </span>
     </a>
     <a id="about-dropdown-menu" href="#" class="ui dropdown item">

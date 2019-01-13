@@ -28,7 +28,7 @@ $(document).ready(() => {
   bookmark.initialize();
   search.initialize();
   auth.initialize();
-  toc.initialize();
+  toc.initialize("page");
   about.initialize();
 
 });

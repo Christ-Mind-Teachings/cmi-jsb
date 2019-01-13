@@ -65,7 +65,21 @@ export function pageDriver() {
         description: "A collection of messages given before the Way of the Heart.",
         position: "top"
       }
-    },
+    }
+  ]);
+
+  driver.start();
+}
+
+export function pageNavigationDriver() {
+  const driver = new Driver({
+    allowClose: false,
+    opacity: 0.5,
+    onReset: () => {
+      $("#bookmark-dropdown-menu").dropdown("hide");
+    }
+  });
+  driver.defineSteps([
     {
       element: "#masthead-title",
       popover: {
@@ -113,6 +127,14 @@ export function pageDriver() {
         description: "Create an account and sign in to the site. It's free and allows you to create bookmarks that you can share via Facebook and keep synchronized between devices.",
         position: "left"
       }
+    },
+    {
+      element: "[data-book='wot']",
+      popover: {
+        title: "Display Table of Contents",
+        description: "Click on any image to display and navigate to the volume contents.",
+        position: "left"
+      }
     }
   ]);
 
@@ -122,34 +144,44 @@ export function pageDriver() {
 export function transcriptDriver() {
   const driver = new Driver({
     allowClose: false,
-    opacity: 0.5,
+    opacity: 0.5
+    /*
     onReset: () => {
       $("#bookmark-dropdown-menu").dropdown("hide");
     }
+    */
   });
 
   driver.defineSteps([
     {
+      element: "#masthead-title",
+      popover: {
+        title: "Library of Christ Mind Teachings",
+        description: "This page is part of the Teachings of Christ Mind Library. Click this link to navigate to the Library's Home page.",
+        position: "bottom"
+      }
+    },
+    {
+      element: "#src-title",
+      popover: {
+        title: "Way of Mastery",
+        description: "This page comes from the Way of Mastery. Click this link to navigate to the Home page of the Way of Mastery.",
+        position: "bottom"
+      }
+    },
+    {
+      element: "#book-title",
+      popover: {
+        title: "Book Title",
+        description: "This identifies the book and chapter of the content on this page.",
+        position: "bottom"
+      }
+    },
+    {
       element: "#bookmark-dropdown-menu",
       popover: {
-        title: "Bookmark Feature",
-        description: "Here you can list and filter bookmarks by topic.",
-        position: "right"
-      }
-    },
-    {
-      element: "#bookmark-modal-open",
-      popover: {
-        title: "List Bookmarks",
-        description: "Display a list of bookmarks you have created and optionally filter by topic. You can quickly jump to any bookmark. Learn more about bookmarks in the documentation.",
-        position: "right"
-      }
-    },
-    {
-      element: "#bookmark-toggle-highlight",
-      popover: {
-        title: "Show/Hide Bookmark Highlight",
-        description: "Hide or show all highlighted text.",
+        title: "Bookmarks",
+        description: "You can create a bookmark from highlighted text and associate the bookmark with one or more categories. Learn more about bookmarks by reading the documentation.",
         position: "right"
       }
     },
@@ -160,11 +192,59 @@ export function transcriptDriver() {
         description: "Find topics of interest by searching through all Way of Mastery books.",
         position: "bottom"
       }
+    },
+    {
+      element: ".audio-player-toggle",
+      popover: {
+        title: "Listen to the Audio",
+        description: "Click the speaker icon to display the audio player and listen along as you read.",
+        position: "bottom"
+      }
+    },
+    {
+      element: ".toggle-paragraph-markers",
+      popover: {
+        title: "Show/Hide Paragraph Markers",
+        description: "Show or hide the markers that preceed each paragraph.",
+        position: "bottom"
+      }
+    },
+    {
+      element: ".top-of-page",
+      popover: {
+        title: "Go To Top of Page",
+        description: "Quickly jump to the top of the page.",
+        position: "bottom"
+      }
+    },
+    {
+      element: "#contents-modal-open",
+      popover: {
+        title: "Table of Contents",
+        description: "View the table of contents.",
+        position: "bottom"
+      }
+    },
+    {
+      element: "#about-dropdown-menu",
+      popover: {
+        title: "Get Help",
+        description: "Learn how to use features of the Library.",
+        position: "bottom"
+      }
+    },
+    {
+      element: ".login-menu-option",
+      popover: {
+        title: "Sign In/Sign Out",
+        description: "Create an account and sign in or sign out. When you sign in, bookmarks you create will be available on all devices you use to access the library.",
+        position: "bottom"
+      }
     }
   ]);
 
   //show bookmark menu
-  $("#bookmark-dropdown-menu").dropdown("show");
+  //$("#bookmark-dropdown-menu").dropdown("show");
   driver.start();
 }
 

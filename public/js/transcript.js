@@ -4309,7 +4309,7 @@ let config;
 function refreshNeeded(bid, fetchDate) {
   //values of lastChanged are loaded from webpack
   const lastChanged = {
-    til: 1546752237293
+    til: 1547356021896
   };
 
   if (lastChanged[bid] > fetchDate) {
@@ -35753,23 +35753,13 @@ const uiTocModal = ".toc.ui.modal";
 const uiOpenTocModal = ".toc-modal-open";
 const uiModalOpacity = 0.5;
 
-//generate html for questions
-function renderQuestions(questions) {
-  return `
-    <div class="list">
-      ${questions.map(q => `<a class="item" href="${q.url}">${q.title}</a>`).join("")}
-    </div>
-  `;
-}
-
 //generate html for Contents
 function makeContents(contents) {
   return `
     <div class="ui ordered relaxed list">
-      ${contents.map(unit => `
+      ${contents.map((unit, idx) => `
         <div class="item"> 
-          <a href="${unit.url}">${unit.title}</a>
-          ${unit.questions ? renderQuestions(unit.questions) : ""}
+          <a data-lid="${idx + 1}" href="${unit.url}">${unit.title}</a>
         </div>
       `).join("")}
     </div>
@@ -35778,9 +35768,11 @@ function makeContents(contents) {
 
 /*
   If we're on a transcript page, highlight the 
-  current transcript in the list
+  current transcript in the list and set prev and
+  next menu controls
 */
 function highlightCurrentTranscript() {
+  console.log("highlight");
   if ($(".transcript").length > 0) {
     let page = location.pathname;
     let $el = $(`.toc-list a[href='${page}']`);
@@ -35789,7 +35781,78 @@ function highlightCurrentTranscript() {
     //scroll into middle of viewport
     $el.addClass("current-unit").removeAttr("href");
     __WEBPACK_IMPORTED_MODULE_0_scroll_into_view___default()($el.get(0));
+
+    setNextPrev($el);
   }
+}
+
+/*
+  set next/prev controls on menu for workbook transcripts
+*/
+function setNextPrev($el) {
+  const LAST_ID = 19;
+  let prevId = -1,
+      nextId = -1,
+      href,
+      text;
+  let lid = $el.attr("data-lid");
+  let lessonId = parseInt(lid, 10);
+
+  //disable prev control
+  if (lessonId === 1) {
+    $(".previous-page").addClass("disabled");
+  } else {
+    $(".previous-page").removeClass("disabled");
+    prevId = lessonId - 1;
+  }
+
+  //disable next control
+  if (lessonId === LAST_ID) {
+    $(".next-page").addClass("disabled");
+  } else {
+    $(".next-page").removeClass("disabled");
+    nextId = lessonId + 1;
+  }
+
+  if (prevId > -1) {
+    href = $(`a[data-lid="${prevId}"]`).attr("href");
+    text = $(`a[data-lid="${prevId}"]`).text();
+
+    //set prev tooltip and href
+    $("a.previous-page > span").attr("data-tooltip", `${text}`);
+    $("a.previous-page").attr("href", `${href}`);
+  } else {
+    $("a.previous-page > span").attr("data-tooltip", "At Top");
+  }
+
+  if (nextId > -1) {
+    href = $(`a[data-lid="${nextId}"]`).attr("href");
+    text = $(`a[data-lid="${nextId}"]`).text();
+
+    //set prev tooltip and href
+    $("a.next-page > span").attr("data-tooltip", `${text}`);
+    $("a.next-page").attr("href", `${href}`);
+  } else {
+    $("a.next-page > span").attr("data-tooltip", "At Bottom");
+  }
+}
+
+//called for transcript pages
+function loadTOC() {
+  let book = $("#contents-modal-open").attr("data-book").toLowerCase();
+
+  Object(__WEBPACK_IMPORTED_MODULE_1__config_config__["c" /* getConfig */])(book).then(contents => {
+    $(".toc-image").attr("src", `${contents.image}`);
+    $(".toc-title").html(`Table of Contents: <em>${contents.title}</em>`);
+    $(".toc-list").html(makeContents(contents.contents));
+    highlightCurrentTranscript();
+  }).catch(error => {
+    console.error(error);
+    $(".toc-image").attr("src", "/public/img/cmi/toc_modal.png");
+    $(".toc-title").html("Table of Contents: <em>Error</em>");
+    $(".toc-list").html(`<p>Error: ${error.message}</p>`);
+    $(uiTocModal).modal("show");
+  });
 }
 
 /*
@@ -35805,13 +35868,17 @@ function getBookId() {
    * Init the modal dialog with data from JSON file 
    * or local storage
    */
-  initialize: function () {
+  initialize: function (env) {
     //dialog settings
     $(uiTocModal).modal({
       dimmerSettings: { opacity: uiModalOpacity },
       observeChanges: true
     });
 
+    //load toc once for transcript pages
+    if (env === "transcript") {
+      loadTOC();
+    }
     /*
      * TOC populated by JSON file from AJAX call if not found
      * in local storage.
@@ -35822,19 +35889,21 @@ function getBookId() {
     $(uiOpenTocModal).on("click", e => {
       e.preventDefault();
       let book = $(e.currentTarget).attr("data-book").toLowerCase();
-
-      Object(__WEBPACK_IMPORTED_MODULE_1__config_config__["c" /* getConfig */])(book).then(contents => {
-        $(".toc-image").attr("src", `${contents.image}`);
-        $(".toc-title").html(`Table of Contents: <em>${contents.title}</em>`);
-        $(".toc-list").html(makeContents(contents.contents));
-        highlightCurrentTranscript();
+      if (env !== "transcript") {
+        Object(__WEBPACK_IMPORTED_MODULE_1__config_config__["c" /* getConfig */])(book).then(contents => {
+          $(".toc-image").attr("src", `${contents.image}`);
+          $(".toc-title").html(`Table of Contents: <em>${contents.title}</em>`);
+          $(".toc-list").html(makeContents(contents.contents));
+          $(uiTocModal).modal("show");
+        }).catch(error => {
+          $(".toc-image").attr("src", "/public/img/cmi/toc_modal.png");
+          $(".toc-title").html("Table of Contents: <em>Error</em>");
+          $(".toc-list").html(`<p>Error: ${error.message}</p><p>Failed to get ${url}`);
+          $(uiTocModal).modal("show");
+        });
+      } else {
         $(uiTocModal).modal("show");
-      }).catch(error => {
-        $(".toc-image").attr("src", "/public/img/cmi/toc_modal.png");
-        $(".toc-title").html("Table of Contents: <em>Error</em>");
-        $(".toc-list").html(`<p>Error: ${error.message}</p><p>Failed to get ${url}`);
-        $(uiTocModal).modal("show");
-      });
+      }
     });
   }
 });
@@ -35859,7 +35928,7 @@ function createClickHandlers() {
 
     if ($(this).hasClass("page-navtour")) {
       console.log("page Nav Driver");
-      Object(__WEBPACK_IMPORTED_MODULE_0__util_driver__["pageNavigationDriver"])();
+      Object(__WEBPACK_IMPORTED_MODULE_0__util_driver__["b" /* pageNavigationDriver */])();
     }
 
     if ($(this).hasClass("transcript-tour")) {
@@ -35895,6 +35964,7 @@ function createClickHandlers() {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function($) {/* harmony export (immutable) */ __webpack_exports__["a"] = pageDriver;
+/* harmony export (immutable) */ __webpack_exports__["b"] = pageNavigationDriver;
 /* harmony export (immutable) */ __webpack_exports__["c"] = transcriptDriver;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_driver_js__ = __webpack_require__(399);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_driver_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_driver_js__);
@@ -35958,7 +36028,20 @@ function pageDriver() {
       description: "A collection of messages given before the Way of the Heart.",
       position: "top"
     }
-  }, {
+  }]);
+
+  driver.start();
+}
+
+function pageNavigationDriver() {
+  const driver = new __WEBPACK_IMPORTED_MODULE_0_driver_js___default.a({
+    allowClose: false,
+    opacity: 0.5,
+    onReset: () => {
+      $("#bookmark-dropdown-menu").dropdown("hide");
+    }
+  });
+  driver.defineSteps([{
     element: "#masthead-title",
     popover: {
       title: "Navigation and Features",
@@ -36000,6 +36083,13 @@ function pageDriver() {
       description: "Create an account and sign in to the site. It's free and allows you to create bookmarks that you can share via Facebook and keep synchronized between devices.",
       position: "left"
     }
+  }, {
+    element: "[data-book='wot']",
+    popover: {
+      title: "Display Table of Contents",
+      description: "Click on any image to display and navigate to the volume contents.",
+      position: "left"
+    }
   }]);
 
   driver.start();
@@ -36008,31 +36098,40 @@ function pageDriver() {
 function transcriptDriver() {
   const driver = new __WEBPACK_IMPORTED_MODULE_0_driver_js___default.a({
     allowClose: false,
-    opacity: 0.5,
+    opacity: 0.5
+    /*
     onReset: () => {
       $("#bookmark-dropdown-menu").dropdown("hide");
     }
+    */
   });
 
   driver.defineSteps([{
+    element: "#masthead-title",
+    popover: {
+      title: "Library of Christ Mind Teachings",
+      description: "This page is part of the Teachings of Christ Mind Library. Click this link to navigate to the Library's Home page.",
+      position: "bottom"
+    }
+  }, {
+    element: "#src-title",
+    popover: {
+      title: "Way of Mastery",
+      description: "This page comes from the Way of Mastery. Click this link to navigate to the Home page of the Way of Mastery.",
+      position: "bottom"
+    }
+  }, {
+    element: "#book-title",
+    popover: {
+      title: "Book Title",
+      description: "This identifies the book and chapter of the content on this page.",
+      position: "bottom"
+    }
+  }, {
     element: "#bookmark-dropdown-menu",
     popover: {
-      title: "Bookmark Feature",
-      description: "Here you can list and filter bookmarks by topic.",
-      position: "right"
-    }
-  }, {
-    element: "#bookmark-modal-open",
-    popover: {
-      title: "List Bookmarks",
-      description: "Display a list of bookmarks you have created and optionally filter by topic. You can quickly jump to any bookmark. Learn more about bookmarks in the documentation.",
-      position: "right"
-    }
-  }, {
-    element: "#bookmark-toggle-highlight",
-    popover: {
-      title: "Show/Hide Bookmark Highlight",
-      description: "Hide or show all highlighted text.",
+      title: "Bookmarks",
+      description: "You can create a bookmark from highlighted text and associate the bookmark with one or more categories. Learn more about bookmarks by reading the documentation.",
       position: "right"
     }
   }, {
@@ -36042,10 +36141,52 @@ function transcriptDriver() {
       description: "Find topics of interest by searching through all Way of Mastery books.",
       position: "bottom"
     }
+  }, {
+    element: ".audio-player-toggle",
+    popover: {
+      title: "Listen to the Audio",
+      description: "Click the speaker icon to display the audio player and listen along as you read.",
+      position: "bottom"
+    }
+  }, {
+    element: ".toggle-paragraph-markers",
+    popover: {
+      title: "Show/Hide Paragraph Markers",
+      description: "Show or hide the markers that preceed each paragraph.",
+      position: "bottom"
+    }
+  }, {
+    element: ".top-of-page",
+    popover: {
+      title: "Go To Top of Page",
+      description: "Quickly jump to the top of the page.",
+      position: "bottom"
+    }
+  }, {
+    element: "#contents-modal-open",
+    popover: {
+      title: "Table of Contents",
+      description: "View the table of contents.",
+      position: "bottom"
+    }
+  }, {
+    element: "#about-dropdown-menu",
+    popover: {
+      title: "Get Help",
+      description: "Learn how to use features of the Library.",
+      position: "bottom"
+    }
+  }, {
+    element: ".login-menu-option",
+    popover: {
+      title: "Sign In/Sign Out",
+      description: "Create an account and sign in or sign out. When you sign in, bookmarks you create will be available on all devices you use to access the library.",
+      position: "bottom"
+    }
   }]);
 
   //show bookmark menu
-  $("#bookmark-dropdown-menu").dropdown("show");
+  //$("#bookmark-dropdown-menu").dropdown("show");
   driver.start();
 }
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1)))
@@ -37144,7 +37285,7 @@ $(document).ready(() => {
 
   //load config file and do initializations that depend on a loaded config file
   Object(__WEBPACK_IMPORTED_MODULE_2__modules_config_config__["f" /* loadConfig */])(Object(__WEBPACK_IMPORTED_MODULE_6__modules_contents_toc__["b" /* getBookId */])()).then(() => {
-    __WEBPACK_IMPORTED_MODULE_6__modules_contents_toc__["a" /* default */].initialize();
+    __WEBPACK_IMPORTED_MODULE_6__modules_contents_toc__["a" /* default */].initialize("transcript");
     __WEBPACK_IMPORTED_MODULE_4__modules_search_search__["a" /* default */].initialize();
     __WEBPACK_IMPORTED_MODULE_7__modules_audio_audio__["a" /* default */].initialize();
     Object(__WEBPACK_IMPORTED_MODULE_1__modules_util_url__["d" /* showParagraph */])();
