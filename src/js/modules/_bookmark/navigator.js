@@ -1,5 +1,5 @@
 
-import {getPageInfo} from "../_config/config";
+//import {getPageInfo} from "../_config/config";
 import intersection from "lodash/intersection";
 import range from "lodash/range";
 import store from "store";
@@ -93,6 +93,24 @@ function generateBookmark(actualPid, bkmk, topics) {
  `;
 }
 
+/*
+  returns the url for the first annotation of the arg bookmark
+  Note: deleted annotations are empty arrays so skip over them.
+*/
+function getBookmarkUrl(bookmark) {
+  let url;
+  for (let prop in bookmark) {
+    if (bookmark.hasOwnProperty(prop)) {
+      if (bookmark[prop][0]) {
+        url = `${bookmark[prop][0].selectedText.url}?bkmk=${bookmark[prop][0].rangeStart}`;
+        break;
+      }
+    }
+  }
+
+  return url;
+}
+
 function getNextPageUrl(pos, pageList, filterList, bookmarks) {
   if (pos > pageList.length) {
     return Promise.resolve(null);
@@ -122,22 +140,21 @@ function getNextPageUrl(pos, pageList, filterList, bookmarks) {
     }
   }
 
-  return new Promise((resolve, reject) => {
-    //we found a bookmark
+  return new Promise((resolve) => {
     if (found) {
       let pageKey = pageList[pagePos];
-      getPageInfo(pageKey)
-        .then((info) => {
-          //convert from key to paragraph id
-          let paragraphId = (parseInt(pid, 10) - 1).toString(10);
-          let url = `${info.url}?bkmk=p${paragraphId}`;
-          resolve(url);
-        })
-        .catch((err) => {
-          console.error(err);
-        });
+      let url = getBookmarkUrl(bookmarks[pageKey]);
+
+      //it's possible the url was not found so check for that
+      if (url) {
+        resolve(url);
+      }
+      else {
+        resolve(null);
+      }
     }
     else {
+      //console.log("next url is null");
       resolve(null);
     }
   });
@@ -172,24 +189,15 @@ function getPrevPageUrl(pos, pageList, filterList, bookmarks) {
     }
   }
 
-  return new Promise((resolve, reject) => {
-    //we found a bookmark
+  return new Promise((resolve) => {
     if (found) {
       let pageKey = pageList[pagePos];
-      getPageInfo(pageKey)
-        .then((info) => {
-          //convert from key to paragraph id
-          let paragraphId = (parseInt(pid, 10) - 1).toString(10);
-          let url = `${info.url}?bkmk=p${paragraphId}`;
-          // console.log("getPrev() found: %o", bookmarks[pageList[pagePos]][pid]);
-          // console.log("url prev: %s", url);
-          resolve(url);
-        })
-        .catch((err) => {
-          console.error(err);
-        });
+      let url = getBookmarkUrl(bookmarks[pageKey]);
+      //console.log("prev url is %s", url);
+      resolve(url);
     }
     else {
+      //console.log("prev url is null");
       resolve(null);
     }
   });
@@ -206,10 +214,10 @@ function getNextPrevUrl(pageKey, bookmarks, bmModal) {
 
   pos = pages.indexOf(pageKey);
   if (pos === -1) {
-    return urls;
+    return Promise.reject("bookmark not found");
   }
 
-  console.log("current page: %s", pageKey);
+  //console.log("current page: %s", pageKey);
   let nextPromise = getNextPageUrl(pos + 1, pages, bmModal["modal"].topics, bookmarks);
   let prevPromise = getPrevPageUrl(pos - 1, pages, bmModal["modal"].topics, bookmarks);
 
@@ -329,6 +337,12 @@ function getCurrentBookmark(pageKey, actualPid, allBookmarks, bmModal, whoCalled
 
   let paragraphBookmarks = allBookmarks[pageKey][pidKey];
 
+  //the current bookmark (actualPid) does not exist
+  //this would happen where url includes ?bkmk=p3 and p3 does not have a bookmark
+  if (!paragraphBookmarks) {
+    return false;
+  }
+
   let html = generateBookmark(actualPid, paragraphBookmarks, topics);
   $("#bookmark-content").html(html);
 
@@ -368,6 +382,8 @@ function getCurrentBookmark(pageKey, actualPid, allBookmarks, bmModal, whoCalled
     $(".bookmark-navigator .next-bookmark").removeClass("inactive");
     $(".bookmark-navigator .next-bookmark").html(`<i class="down arrow icon"></i> Next (${nextActualPid})`);
   }
+
+  return true;
 }
 
 /*
@@ -387,27 +403,45 @@ function bookmarkManager(actualPid) {
     //get previous and next url's
     getNextPrevUrl(pageKey, bmList, bmModal)
       .then((responses) => {
-        //console.log("next url: ", responses);
+        //console.log("next/prev urls: ", responses);
 
         //set prev and next hrefs
         if (responses[0] !== null) {
-          $(".bookmark-navigator .previous-page").attr("href", responses[0]);
+          $(".bookmark-navigator .previous-page").attr({ "href": responses[0] });
         }
         else {
-          $(".bookmark-navigator .previous-page").addClass("inactive");
+          $(".bookmark-navigator .previous-page").addClass("inactive").removeAttr("href");
         }
         if (responses[1] !== null) {
-          $(".bookmark-navigator .next-page").attr("href", responses[1]);
+          $(".bookmark-navigator .next-page").attr({ "href": responses[1] });
         }
         else {
-          $(".bookmark-navigator .next-page").addClass("inactive");
+          $(".bookmark-navigator .next-page").addClass("inactive").removeAttr("href");
         }
 
         //identify current bookmark in navigator
-        getCurrentBookmark(pageKey, actualPid, bmList, bmModal, "both");
+        //returns false if actualPid does not contain a bookmark
+        if (!getCurrentBookmark(pageKey, actualPid, bmList, bmModal, "both")) {
+          notify.info(`A bookmark at ${actualPid} was not found.`);
+          return;
+        }
+
+        //init navigator controls
+        initClickListeners();
+
+        //indicate bookmark navigator is active by adding class to ./transcript
+        $(".transcript").addClass("bookmark-navigator-active");
+
+        //show the navigator and scroll
+        $(".bookmark-navigator-wrapper").removeClass("hide-bookmark-navigator");
+        setTimeout(scrollIntoView, 250, actualPid, "bookmarkManager");
       })
       .catch((err) => {
         console.error(err);
+
+        if (err === "bookmark not found") {
+          notify.info(`A bookmark at ${actualPid} was not found.`);
+        }
       });
   }
   else {
@@ -423,6 +457,7 @@ function bookmarkManager(actualPid) {
     update: either "previous", or "next" depending on what click handler called the function
 */
 function updateNavigator(pid, update) {
+  //console.log("updateNavigator, pid: %s, update: %s", pid, update);
   let bmList = store.get(`bmList_${transcript.getSourceId()}`);
   let bmModal = store.get(`bmModal_${transcript.getSourceId()}`);
   getCurrentBookmark(gPageKey, pid, bmList, bmModal, update);
@@ -435,6 +470,16 @@ function clearSelectedAnnotation() {
   $(".bookmark-selected-text.show").removeClass("show");
 }
 
+function scrollComplete(message, type) {
+  console.log(`${message}: ${type}`);
+}
+
+function scrollIntoView(id, caller) {
+  scroll(document.getElementById(id), {align: {top: 0.2}}, (type) => {
+    scrollComplete(`scroll from bookmark navigator ${caller}(${id})`, type);
+  });
+}
+
 function initClickListeners() {
   //previous bookmark
   $(".bookmark-navigator .previous-bookmark").on("click", function(e) {
@@ -442,7 +487,9 @@ function initClickListeners() {
     clearSelectedAnnotation();
 
     let actualPid = $(this).attr("data-pid");
-    scroll(document.getElementById(actualPid), {align: {top: 0.2}});
+    scroll(document.getElementById(actualPid), {align: {top: 0.2}}, (type) => {
+      scrollComplete(`bookmark navigator previous-bookmark(${actualPid})`, type);
+    });
     updateNavigator(actualPid, "previous");
   });
 
@@ -451,7 +498,9 @@ function initClickListeners() {
     clearSelectedAnnotation();
 
     let actualPid = $(this).attr("data-pid");
-    scroll(document.getElementById(actualPid), {align: {top: 0.2}});
+    scroll(document.getElementById(actualPid), {align: {top: 0.2}}, (type) => {
+      scrollComplete(`bookmark navigator next-bookmark(${actualPid})`, type);
+    });
     updateNavigator(actualPid, "next");
   });
 
@@ -459,7 +508,9 @@ function initClickListeners() {
     e.preventDefault();
 
     let actualPid = $(this).attr("data-pid");
-    scroll(document.getElementById(actualPid), {align: {top: 0.2}});
+    scroll(document.getElementById(actualPid), {align: {top: 0.2}}, (type) => {
+      scrollComplete(`bookmark navigator current-bookmark(${actualPid})`, type);
+    });
   });
 
   $(".bookmark-navigator .close-window").on("click", function(e) {
@@ -492,7 +543,7 @@ function initClickListeners() {
     aid = annotation.data("aid");
     text = annotation.text().replace(/\n/," ");
     
-    let url = `https://wom.christmind.info${location.pathname}?as=${pid}:${aid}:${userInfo.userId}`;
+    let url = `https://acim.christmind.info${location.pathname}?as=${pid}:${aid}:${userInfo.userId}`;
     let channel = $(this).hasClass("facebook")?"facebook":"email";
 
     // console.log("url: %s", url);
@@ -552,11 +603,5 @@ function initClickListeners() {
   Initialize the bookmark navigator so they can follow the list of bookmarks
 */
 export function initNavigator(actualPid) {
-  //show the navigator
-  $(".bookmark-navigator-wrapper").removeClass("hide-bookmark-navigator");
   bookmarkManager(actualPid);
-  initClickListeners();
-
-  //indicate bookmark navigator is active by adding class to ./transcript
-  $(".transcript").addClass("bookmark-navigator-active");
 }
