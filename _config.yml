@@ -1,5 +1,5 @@
 # CMI
-sourceId: 1
+sourceId: 11
 cmiTitle: "Teachings of Christ Mind"
 
 # Setup
@@ -9,6 +9,7 @@ description:  'The Impersonal Life by Joseph S. Benner 1914'
 url:          'https://jsb.christmind.info'
 baseurl:      ''
 keywords:     "Christ Mind, spiritual, The Impersonal Life, Joseph S. Benner"
+port:         9911
 
 # About/contact
 author:
@@ -34,11 +35,24 @@ markdown: kramdown
 
 # Collections for transcripts
 collections:
+  acq:
+    output: true
+    title: Get Acquainted
   til:
     output: true
     title: The Impersonal Life
 
 defaults:
+  - scope:
+      path: ""
+      type: acq
+    values:
+      layout: transcript
+      book: "Get Acquainted"
+      image: "/public/img/src/acq-big.jpg"
+      image-width: 612
+      image-height: 792
+      bid: "acq"
   - scope:
       path: ""
       type: til

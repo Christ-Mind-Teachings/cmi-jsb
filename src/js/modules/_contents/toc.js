@@ -23,7 +23,7 @@ function makeContents(contents) {
   current transcript in the list and set prev and
   next menu controls
 */
-function highlightCurrentTranscript() {
+function highlightCurrentTranscript(bid) {
   console.log("highlight");
   if ($(".transcript").length > 0) {
     let page = location.pathname;
@@ -34,15 +34,26 @@ function highlightCurrentTranscript() {
     $el.addClass("current-unit").removeAttr("href");
     scroll($el.get(0));
 
-    setNextPrev($el);
+    let max = 1;
+
+    switch(bid) {
+      case "til":
+        max = 19;
+        break;
+      case "acq":
+        max = 1;
+        break;
+    }
+
+    setNextPrev($el, max);
   }
 }
 
 /*
   set next/prev controls on menu for workbook transcripts
 */
-function setNextPrev($el) {
-  const LAST_ID = 19;
+function setNextPrev($el, max) {
+  const LAST_ID = max;
   let prevId = -1, nextId = -1, href, text;
   let lid = $el.attr("data-lid");
   let lessonId = parseInt(lid, 10);
@@ -99,7 +110,7 @@ function loadTOC() {
       $(".toc-image").attr("src", `${contents.image}`);
       $(".toc-title").html(`Table of Contents: <em>${contents.title}</em>`);
       $(".toc-list").html(makeContents(contents.contents));
-      highlightCurrentTranscript();
+      highlightCurrentTranscript(contents.bid);
     })
     .catch((error) => {
       console.error(error);

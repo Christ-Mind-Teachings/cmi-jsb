@@ -16,7 +16,7 @@
          qq: question Id
         ppp: paragraph number - not positional
 
-  NOTE: This module is used by code running in the browser and Node so the 
+  NOTE: This module is used by code running in the browser and Node so the
         common.js module system is used
 */
 
@@ -31,8 +31,9 @@ const sourceId = 11;
 //length of pageKey excluding decimal portion
 const keyLength = 8;
 
-const books = ["til"];
+const books = ["til", "acq"];
 const bookIds = ["xxx", ...books];
+const acq = ["xxx", "welcome"];
 const til = ["xxx", "chap01", "chap02", "chap03", "chap04", "chap05", "chap06", "chap07", "chap08", "chap09", "chap10", "chap11", "chap12", "chap13", "chap14", "chap15", "chap16", "chap17", "chap18", "chap18"];
 
 function splitUrl(url) {
@@ -50,6 +51,9 @@ function getUnitId(bid, unit) {
     case "til":
       //return indexOf(tjl, unit);
       return til.indexOf(unit);
+    case "acq":
+      //return indexOf(tjl, unit);
+      return acq.indexOf(unit);
     default:
       throw new Error(`unexpected bookId: ${bid}`);
   }

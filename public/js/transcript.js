@@ -1799,7 +1799,7 @@ module.exports = engine.createStore(storages, plugins)
          qq: question Id
         ppp: paragraph number - not positional
 
-  NOTE: This module is used by code running in the browser and Node so the 
+  NOTE: This module is used by code running in the browser and Node so the
         common.js module system is used
 */
 
@@ -1814,8 +1814,9 @@ const sourceId = 11;
 //length of pageKey excluding decimal portion
 const keyLength = 8;
 
-const books = ["til"];
+const books = ["til", "acq"];
 const bookIds = ["xxx", ...books];
+const acq = ["xxx", "welcome"];
 const til = ["xxx", "chap01", "chap02", "chap03", "chap04", "chap05", "chap06", "chap07", "chap08", "chap09", "chap10", "chap11", "chap12", "chap13", "chap14", "chap15", "chap16", "chap17", "chap18", "chap18"];
 
 function splitUrl(url) {
@@ -1833,6 +1834,9 @@ function getUnitId(bid, unit) {
     case "til":
       //return indexOf(tjl, unit);
       return til.indexOf(unit);
+    case "acq":
+      //return indexOf(tjl, unit);
+      return acq.indexOf(unit);
     default:
       throw new Error(`unexpected bookId: ${bid}`);
   }
@@ -35857,7 +35861,7 @@ function makeContents(contents) {
   current transcript in the list and set prev and
   next menu controls
 */
-function highlightCurrentTranscript() {
+function highlightCurrentTranscript(bid) {
   console.log("highlight");
   if ($(".transcript").length > 0) {
     let page = location.pathname;
@@ -35868,15 +35872,26 @@ function highlightCurrentTranscript() {
     $el.addClass("current-unit").removeAttr("href");
     __WEBPACK_IMPORTED_MODULE_0_scroll_into_view___default()($el.get(0));
 
-    setNextPrev($el);
+    let max = 1;
+
+    switch (bid) {
+      case "til":
+        max = 19;
+        break;
+      case "acq":
+        max = 1;
+        break;
+    }
+
+    setNextPrev($el, max);
   }
 }
 
 /*
   set next/prev controls on menu for workbook transcripts
 */
-function setNextPrev($el) {
-  const LAST_ID = 19;
+function setNextPrev($el, max) {
+  const LAST_ID = max;
   let prevId = -1,
       nextId = -1,
       href,
@@ -35931,7 +35946,7 @@ function loadTOC() {
     $(".toc-image").attr("src", `${contents.image}`);
     $(".toc-title").html(`Table of Contents: <em>${contents.title}</em>`);
     $(".toc-list").html(makeContents(contents.contents));
-    highlightCurrentTranscript();
+    highlightCurrentTranscript(contents.bid);
   }).catch(error => {
     console.error(error);
     $(".toc-image").attr("src", "/public/img/cmi/toc_modal.png");
@@ -37333,6 +37348,20 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
+const ports = {
+  acim: 9912,
+  wom: 9910,
+  raj: 9913,
+  jsb: 9911,
+  www: 9999
+};
+
+function setLinks() {
+  if (location.hostname === "localhost") {
+    $("#www-christmind-info").attr("href", `http://localhost:${ports.www}/`);
+  }
+}
+
 /*
  * For all transcript paragraphs -
  *   That are not footnotes and that don't have class .omit
@@ -37413,6 +37442,7 @@ function createParagraphNumberToggleListener() {
 $(document).ready(() => {
 
   initStickyMenu();
+  setLinks();
   labelParagraphs();
   createParagraphNumberToggleListener();
   __WEBPACK_IMPORTED_MODULE_5__modules_user_netlify__["a" /* default */].initialize();
