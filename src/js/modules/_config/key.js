@@ -1,5 +1,5 @@
 /*
-  WOM: Transcript keys
+  JSB: Transcript keys
   - first item starts with 1, not 0
   - a numeric value that represents a specific transcript and represents
     a specific logical ordering.
@@ -36,6 +36,11 @@ const bookIds = ["xxx", ...books];
 const acq = ["xxx", "welcome"];
 const til = ["xxx", "chap01", "chap02", "chap03", "chap04", "chap05", "chap06", "chap07", "chap08", "chap09", "chap10", "chap11", "chap12", "chap13", "chap14", "chap15", "chap16", "chap17", "chap18", "chap18"];
 
+const contents = {
+  acq: acq,
+  til: til
+};
+
 function splitUrl(url) {
   let u = url;
 
@@ -46,16 +51,15 @@ function splitUrl(url) {
   return u.split("/");
 }
 
+/*
+  return the position of unit in the bid array
+*/
 function getUnitId(bid, unit) {
-  switch(bid) {
-    case "til":
-      //return indexOf(tjl, unit);
-      return til.indexOf(unit);
-    case "acq":
-      //return indexOf(tjl, unit);
-      return acq.indexOf(unit);
-    default:
-      throw new Error(`unexpected bookId: ${bid}`);
+  if (contents[bid]) {
+    return contents[bid].indexOf(unit);
+  }
+  else {
+    throw new Error(`unexpected bookId: ${bid}`);
   }
 }
 
@@ -228,7 +232,40 @@ function getBooks() {
   return books;
 }
 
+/*
+  Return the number of chapters in the book (bid). 
+  Subtract one from length because of 'xxx' (fake chapter)
+*/
+function getNumberOfUnits(bid) {
+  if (contents[bid]) {
+    return contents[bid].length - 1;
+  }
+  else {
+    throw new Error(`getNumberOfUnits() unexpected bookId: ${bid}`);
+  }
+}
+
+/*
+ * Convert page key to url
+ */
+function getUrl(key) {
+  let decodedKey = decodeKey(key);
+  let unit = "invalid";
+
+  if (decodedKey.error) {
+    return "/invalid/key/";
+  }
+
+  if (contents[decodedKey.bookId]) {
+    unit = contents[decodedKey.bookId][decodedKey.uid + 1];
+  }
+
+  return `/${decodedKey.bookId}/${unit}/`;
+}
+
 module.exports = {
+  getNumberOfUnits: getNumberOfUnits,
+  getUrl: getUrl,
   getBooks: getBooks,
   getSourceId: getSourceId,
   getKeyInfo: getKeyInfo,
