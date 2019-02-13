@@ -34336,6 +34336,12 @@ function initClickListeners() {
       text = annotation.text().replace(/\n/, " ");
     }
 
+    let srcTitle = $("#src-title").text();
+    let bookTitle = $("#book-title").text();
+
+    //add document reference
+    text = `${text}\n~${srcTitle}: ${bookTitle}`;
+
     let url = `https://${location.hostname}${location.pathname}?as=${pid}:${aid}:${userInfo.userId}`;
     let channel = $(this).hasClass("facebook") ? "facebook" : "email";
 
@@ -36074,6 +36080,7 @@ function getBookId() {
 
 
 function createClickHandlers() {
+  //help menu
   $("#help-menu").on("click", "div.item", function (e) {
     e.preventDefault();
 
@@ -36104,6 +36111,15 @@ function createClickHandlers() {
       console.log("video documentation not ready yet");
       //location.href = "";
     }
+  });
+
+  //quick links
+  $("#quick-links").on("click", "div.item", function (e) {
+    e.preventDefault();
+
+    let href = $(this).attr("data-href");
+    //console.log("quick links href: %s", href);
+    location.href = href;
   });
 }
 
@@ -37471,12 +37487,7 @@ function initStickyMenu() {
   });
 
   // show dropdown on hover
-  // $(".main.menu  .ui.dropdown").dropdown({
-  $("#bookmark-dropdown-menu").dropdown({
-    on: "hover"
-  });
-
-  $("#about-dropdown-menu").dropdown({
+  $(".main.menu  .ui.dropdown").dropdown({
     on: "hover"
   });
 }
@@ -37516,6 +37527,11 @@ $(document).ready(() => {
     //until the share window is closed
     let pid = __WEBPACK_IMPORTED_MODULE_9__modules_share_share__["a" /* default */].initialize();
     __WEBPACK_IMPORTED_MODULE_3__modules_bookmark_bookmark__["b" /* default */].initialize(pid);
+
+    if ($(".disable-paragraph-marker").length > 0) {
+      console.log("disable paragraph markers");
+      $(".toggle-paragraph-markers").eq(0).trigger("click");
+    }
   }).catch(error => {
     //report error to the user - somehow
     console.error(error);

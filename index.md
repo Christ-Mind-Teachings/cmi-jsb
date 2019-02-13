@@ -6,13 +6,17 @@ footer:
   display: true
 ---
 
+## Welcome to Joseph S. Benner
+{: .ui.header}
+
+Joseph Benner published *The Impersonal Life* under the pseudonym *Anonymous* in 1914 believing its words were directly from God.
+
 <div id="page-contents" class="ui three cards">
   <div class="card">
     <a href="#" data-book="acq" class="toc-modal-open image">
       <img src="/public/img/src/acq-big.jpg">
     </a>
     <div class="content">
-      <div class="header">Get Acquainted</div>
       <div class="description">
         Learn about Joseph S. Benner
       </div>
@@ -23,9 +27,8 @@ footer:
       <img src="/public/img/src/til-big.jpg">
     </a>
     <div class="content">
-      <div class="header">The Impersonal Life</div>
       <div class="description">
-        By Joseph S. Benner, 1914
+        The Impersonal Life By Joseph S. Benner, 1914
       </div>
     </div>
   </div>

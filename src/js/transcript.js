@@ -89,12 +89,7 @@ function initStickyMenu() {
   });
 
   // show dropdown on hover
-  // $(".main.menu  .ui.dropdown").dropdown({
-  $("#bookmark-dropdown-menu").dropdown({
-    on: "hover"
-  });
-
-  $("#about-dropdown-menu").dropdown({
+  $(".main.menu  .ui.dropdown").dropdown({
     on: "hover"
   });
 }
@@ -136,6 +131,11 @@ $(document).ready(() => {
       //until the share window is closed
       let pid = share.initialize();
       bookmark.initialize(pid);
+
+      if ($(".disable-paragraph-marker").length > 0) {
+        console.log("disable paragraph markers");
+        $(".toggle-paragraph-markers").eq(0).trigger("click");
+      }
     })
     .catch((error) => {
       //report error to the user - somehow

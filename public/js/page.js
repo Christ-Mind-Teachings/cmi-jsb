@@ -34336,6 +34336,12 @@ function initClickListeners() {
       text = annotation.text().replace(/\n/, " ");
     }
 
+    let srcTitle = $("#src-title").text();
+    let bookTitle = $("#book-title").text();
+
+    //add document reference
+    text = `${text}\n~${srcTitle}: ${bookTitle}`;
+
     let url = `https://${location.hostname}${location.pathname}?as=${pid}:${aid}:${userInfo.userId}`;
     let channel = $(this).hasClass("facebook") ? "facebook" : "email";
 
@@ -36074,6 +36080,7 @@ function getBookId() {
 
 
 function createClickHandlers() {
+  //help menu
   $("#help-menu").on("click", "div.item", function (e) {
     e.preventDefault();
 
@@ -36104,6 +36111,15 @@ function createClickHandlers() {
       console.log("video documentation not ready yet");
       //location.href = "";
     }
+  });
+
+  //quick links
+  $("#quick-links").on("click", "div.item", function (e) {
+    e.preventDefault();
+
+    let href = $(this).attr("data-href");
+    //console.log("quick links href: %s", href);
+    location.href = href;
   });
 }
 
