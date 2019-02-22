@@ -1,7 +1,7 @@
 {
   "name": "cmi-jsb",
   "version": "0.1.0",
-  "description": "The Impersonal Life by Joseph S. Benner",
+  "description": "Teachings of Christ Mind: The Impersonal Life",
   "main": "index.js",
   "scripts": {
     "test": "jest",
