@@ -4,6 +4,10 @@ masthead: home
 title: "Joseph S. Benner"
 footer:
   display: true
+  donate: false
+  id: "CMI-JSB"
+  source: "JSB"
+  repohref: "https://github.com/rmercer33/cmi-jsb"
 ---
 
 ## Welcome to Joseph S. Benner
