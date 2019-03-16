@@ -18,7 +18,7 @@ Joseph Benner published *The Impersonal Life* under the pseudonym *Anonymous* in
 <div id="page-contents" class="ui three cards">
   <div class="card">
     <a href="#" data-book="acq" class="toc-modal-open image">
-      <img src="/public/img/src/acq-big.jpg">
+      <img src="/jsb/public/img/src/acq-big.jpg">
     </a>
     <div class="content">
       <div class="description">
@@ -28,7 +28,7 @@ Joseph Benner published *The Impersonal Life* under the pseudonym *Anonymous* in
   </div>
   <div class="card">
     <a href="#" data-book="til" class="toc-modal-open image">
-      <img src="/public/img/src/til-big.jpg">
+      <img src="/jsb/public/img/src/til-big.jpg">
     </a>
     <div class="content">
       <div class="description">

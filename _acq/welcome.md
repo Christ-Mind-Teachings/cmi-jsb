@@ -18,7 +18,7 @@ His first book, “The Impersonal Life,” was published in 1914 which, along wi
 <div class="ui items">
   <div class="item">
     <dir class="ui tiny image">
-      <img src="/public/img/src/til-toc.jpg">
+      <img src="/jsb/public/img/src/til-toc.jpg">
     </dir>
     <div class="content">
       <dir class="header">The Impersonal Life</dir>
@@ -29,7 +29,7 @@ This is a timeless book and has long been a classic in spiritual writing. “The
   </div>
   <div class="item">
     <dir class="ui tiny image">
-      <img src="/public/img/src/two-toc.jpg">
+      <img src="/jsb/public/img/src/two-toc.jpg">
     </dir>
     <div class="content">
       <dir class="header">The Way Out</dir>

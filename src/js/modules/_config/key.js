@@ -133,18 +133,18 @@ function genPageKey(url = location.pathname) {
   let parts = splitUrl(url);
 
   //key.bid = indexOf(bookIds, parts[0]);
-  key.bid = bookIds.indexOf(parts[0]);
+  key.bid = bookIds.indexOf(parts[1]);
   if (key.bid === -1) {
     return -1;
   }
-  key.uid = getUnitId(parts[0], parts[1]);
+  key.uid = getUnitId(parts[1], parts[2]);
   if (key.bid === -1) {
     return -1;
   }
 
-  if (parts.length === 3) {
+  if (parts.length === 4) {
     key.hasQuestions = 1;
-    key.qid = parseInt(parts[2].substr(1), 10);
+    key.qid = parseInt(parts[3].substr(1), 10);
   }
 
   let compositeKey = sprintf("%02s%01s%02s%1s%02s", key.sid, key.bid, key.uid, key.hasQuestions, key.qid);

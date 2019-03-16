@@ -1,6 +1,5 @@
 import store from "store";
 import axios from "axios";
-import indexOf from "lodash/indexOf";
 import {status} from "./status";
 
 //import {decodeKey, parseKey, genKey} from "./key";
@@ -12,10 +11,11 @@ const SOURCE_ID = "jsb";
 
 //mp3 and audio timing base directories
 const audioBase = `https://s3.amazonaws.com/${AWS_BUCKET}/${SOURCE_ID}/audio`;
-const timingBase = "/public/timing";
+const timingBase = "/jsb/public/timing";
 
 //location of configuration files
-const configUrl = "/public/config";
+const configUrl = "/jsb/public/config";
+const configStore = "config.jsb.";
 
 //the current configuration, initially null, assigned by getConfig()
 let config;
@@ -86,7 +86,7 @@ export function fetchTimingData(url) {
 */
 export function getConfig(book, assign = true) {
   return new Promise((resolve, reject) => {
-    let cfg = store.get(`config-${book}`);
+    let cfg = store.get(`${configStore}${book}`);
     let url;
 
     //if config in local storage check if we need to get a freash copy
@@ -103,7 +103,7 @@ export function getConfig(book, assign = true) {
       .then((response) => {
         //add save date before storing
         response.data.saveDate = status[response.data.bid];
-        store.set(`config-${book}`, response.data);
+        store.set(`${configStore}${book}`, response.data);
         if (assign) {
           config = response.data;
         }
@@ -125,7 +125,7 @@ export function getConfig(book, assign = true) {
 */
 export function loadConfig(book) {
   return new Promise((resolve, reject) => {
-    let cfg = store.get(`config-${book}`);
+    let cfg = store.get(`${configStore}${book}`);
     let url;
 
     //if config in local storage check if we need to get a freash copy
@@ -140,7 +140,7 @@ export function loadConfig(book) {
       .then((response) => {
         //add save date before storing
         response.data.saveDate = status[response.data.bid];
-        store.set(`config-${book}`, response.data);
+        store.set(`${configStore}${book}`, response.data);
         config = response.data;
         resolve("config fetched from server");
       })
@@ -157,7 +157,7 @@ export function loadConfig(book) {
 function _getAudioInfo(idx, cIdx) {
   let audioInfo;
 
-  if (idx.length === 3) {
+  if (idx.length === 4) {
     let qIdx = parseInt(idx[2].substr(1), 10) - 1;
     audioInfo = config.contents[cIdx].questions[qIdx];
   }
@@ -180,19 +180,18 @@ export function getAudioInfo(url) {
   let idx = url.split("/");
 
   //check the correct configuration file is loaded
-  if (config.bid !== idx[0]) {
+  if (config.bid !== idx[1]) {
     throw new Error("Unexpected config file loaded; expecting %s but %s is loaded.", idx[0], config.bid);
   }
 
   let audioInfo = {};
   let cIdx;
-  let lookup = [];
 
   switch(idx[0]) {
     default:
-      console.log("idx[1]: ", idx);
-      cIdx = parseInt(idx[1].substr(4), 10) - 1;
-      console.log("cIdx: %s", cIdx);
+      //console.log("idx[1]: ", idx);
+      cIdx = parseInt(idx[2].substr(4), 10) - 1;
+      //console.log("cIdx: %s", cIdx);
       audioInfo = _getAudioInfo(idx, cIdx);
       break;
   }

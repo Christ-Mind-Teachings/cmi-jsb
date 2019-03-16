@@ -2083,18 +2083,18 @@ function genPageKey(url = location.pathname) {
   let parts = splitUrl(url);
 
   //key.bid = indexOf(bookIds, parts[0]);
-  key.bid = bookIds.indexOf(parts[0]);
+  key.bid = bookIds.indexOf(parts[1]);
   if (key.bid === -1) {
     return -1;
   }
-  key.uid = getUnitId(parts[0], parts[1]);
+  key.uid = getUnitId(parts[1], parts[2]);
   if (key.bid === -1) {
     return -1;
   }
 
-  if (parts.length === 3) {
+  if (parts.length === 4) {
     key.hasQuestions = 1;
-    key.qid = parseInt(parts[2].substr(1), 10);
+    key.qid = parseInt(parts[3].substr(1), 10);
   }
 
   let compositeKey = sprintf("%02s%01s%02s%1s%02s", key.sid, key.bid, key.uid, key.hasQuestions, key.qid);
@@ -5380,10 +5380,7 @@ return camelCase;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_store___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_store__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_axios__ = __webpack_require__(34);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_axios___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_axios__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash_indexOf__ = __webpack_require__(243);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash_indexOf___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_lodash_indexOf__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__status__ = __webpack_require__(249);
-
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__status__ = __webpack_require__(249);
 
 
 
@@ -5397,10 +5394,11 @@ const SOURCE_ID = "jsb";
 
 //mp3 and audio timing base directories
 const audioBase = `https://s3.amazonaws.com/${AWS_BUCKET}/${SOURCE_ID}/audio`;
-const timingBase = "/public/timing";
+const timingBase = "/jsb/public/timing";
 
 //location of configuration files
-const configUrl = "/public/config";
+const configUrl = "/jsb/public/config";
+const configStore = "config.jsb.";
 
 //the current configuration, initially null, assigned by getConfig()
 let config;
@@ -5414,7 +5412,7 @@ let config;
           false - use the one we've got
 */
 function refreshNeeded(cfg) {
-  let saveDate = __WEBPACK_IMPORTED_MODULE_3__status__["a" /* status */][cfg.bid];
+  let saveDate = __WEBPACK_IMPORTED_MODULE_2__status__["a" /* status */][cfg.bid];
 
   if (!cfg.saveDate) {
     cfg.saveDate = saveDate;
@@ -5468,7 +5466,7 @@ function fetchTimingData(url) {
 */
 function getConfig(book, assign = true) {
   return new Promise((resolve, reject) => {
-    let cfg = __WEBPACK_IMPORTED_MODULE_0_store___default.a.get(`config-${book}`);
+    let cfg = __WEBPACK_IMPORTED_MODULE_0_store___default.a.get(`${configStore}${book}`);
     let url;
 
     //if config in local storage check if we need to get a freash copy
@@ -5483,8 +5481,8 @@ function getConfig(book, assign = true) {
     url = `${configUrl}/${book}.json`;
     requestConfiguration(url).then(response => {
       //add save date before storing
-      response.data.saveDate = __WEBPACK_IMPORTED_MODULE_3__status__["a" /* status */][response.data.bid];
-      __WEBPACK_IMPORTED_MODULE_0_store___default.a.set(`config-${book}`, response.data);
+      response.data.saveDate = __WEBPACK_IMPORTED_MODULE_2__status__["a" /* status */][response.data.bid];
+      __WEBPACK_IMPORTED_MODULE_0_store___default.a.set(`${configStore}${book}`, response.data);
       if (assign) {
         config = response.data;
       }
@@ -5505,7 +5503,7 @@ function getConfig(book, assign = true) {
 */
 function loadConfig(book) {
   return new Promise((resolve, reject) => {
-    let cfg = __WEBPACK_IMPORTED_MODULE_0_store___default.a.get(`config-${book}`);
+    let cfg = __WEBPACK_IMPORTED_MODULE_0_store___default.a.get(`${configStore}${book}`);
     let url;
 
     //if config in local storage check if we need to get a freash copy
@@ -5518,8 +5516,8 @@ function loadConfig(book) {
     url = `${configUrl}/${book}.json`;
     requestConfiguration(url).then(response => {
       //add save date before storing
-      response.data.saveDate = __WEBPACK_IMPORTED_MODULE_3__status__["a" /* status */][response.data.bid];
-      __WEBPACK_IMPORTED_MODULE_0_store___default.a.set(`config-${book}`, response.data);
+      response.data.saveDate = __WEBPACK_IMPORTED_MODULE_2__status__["a" /* status */][response.data.bid];
+      __WEBPACK_IMPORTED_MODULE_0_store___default.a.set(`${configStore}${book}`, response.data);
       config = response.data;
       resolve("config fetched from server");
     }).catch(error => {
@@ -5535,7 +5533,7 @@ function loadConfig(book) {
 function _getAudioInfo(idx, cIdx) {
   let audioInfo;
 
-  if (idx.length === 3) {
+  if (idx.length === 4) {
     let qIdx = parseInt(idx[2].substr(1), 10) - 1;
     audioInfo = config.contents[cIdx].questions[qIdx];
   } else {
@@ -5557,19 +5555,18 @@ function getAudioInfo(url) {
   let idx = url.split("/");
 
   //check the correct configuration file is loaded
-  if (config.bid !== idx[0]) {
+  if (config.bid !== idx[1]) {
     throw new Error("Unexpected config file loaded; expecting %s but %s is loaded.", idx[0], config.bid);
   }
 
   let audioInfo = {};
   let cIdx;
-  let lookup = [];
 
   switch (idx[0]) {
     default:
-      console.log("idx[1]: ", idx);
-      cIdx = parseInt(idx[1].substr(4), 10) - 1;
-      console.log("cIdx: %s", cIdx);
+      //console.log("idx[1]: ", idx);
+      cIdx = parseInt(idx[2].substr(4), 10) - 1;
+      //console.log("cIdx: %s", cIdx);
       audioInfo = _getAudioInfo(idx, cIdx);
       break;
   }
@@ -5775,6 +5772,8 @@ module.exports = baseUnary;
 
 //import {parseKey, getKeyInfo, genPageKey, genParagraphKey } from "../_config/key";
 const transcript = __webpack_require__(20);
+const bm_list_store = "bm.jsb.list";
+const bm_topic_list = "bm.jsb.topics";
 
 //Index topics
 const topicsEndPoint = "https://93e93isn03.execute-api.us-east-1.amazonaws.com/latest";
@@ -5928,11 +5927,11 @@ function queryBookmarks(key) {
 }
 
 function storeBookmarkList(bookmarks, keyInfo) {
-  __WEBPACK_IMPORTED_MODULE_1_store___default.a.set(`bmList_${keyInfo.sourceId}`, bookmarks);
+  __WEBPACK_IMPORTED_MODULE_1_store___default.a.set(bm_list_store, bookmarks);
 }
 
 function getBookmarkList(keyInfo) {
-  return __WEBPACK_IMPORTED_MODULE_1_store___default.a.get(`bmList_${keyInfo.sourceId}`);
+  return __WEBPACK_IMPORTED_MODULE_1_store___default.a.get(bm_list_store);
 }
 
 /*
@@ -6130,7 +6129,7 @@ function getAnnotation(pid, aid) {
 */
 function fetchTopics() {
   const userInfo = Object(__WEBPACK_IMPORTED_MODULE_3__user_netlify__["b" /* getUserInfo */])();
-  let topics = __WEBPACK_IMPORTED_MODULE_1_store___default.a.get("topic-list");
+  let topics = __WEBPACK_IMPORTED_MODULE_1_store___default.a.get(bm_topic_list);
 
   //keep topics in cache for 2 hours
   const retentionTime = 60 * 1000 * 60 * 2;
@@ -6144,7 +6143,7 @@ function fetchTopics() {
           lastFetchDate: 0,
           topics: []
         };
-        __WEBPACK_IMPORTED_MODULE_1_store___default.a.set("topic-list", topics);
+        __WEBPACK_IMPORTED_MODULE_1_store___default.a.set(bm_topic_list, topics);
       }
       resolve(topics);
       return;
@@ -6162,7 +6161,7 @@ function fetchTopics() {
     __WEBPACK_IMPORTED_MODULE_0_axios___default.a.get(`${topicsEndPoint}/user/${userInfo.userId}/topics/${sourceId}`).then(topicInfo => {
       console.log("topicInfo.data: ", topicInfo.data);
       topicInfo.data.lastFetchDate = Date.now();
-      __WEBPACK_IMPORTED_MODULE_1_store___default.a.set("topic-list", topicInfo.data);
+      __WEBPACK_IMPORTED_MODULE_1_store___default.a.set(bm_topic_list, topicInfo.data);
       resolve(topicInfo.data);
     }).catch(error => {
       console.error("Error fetching topicList: ", error);
@@ -6175,7 +6174,7 @@ function fetchTopics() {
   add new topics to topic-list in application store
 */
 function addToTopicList(newTopics) {
-  let topics = __WEBPACK_IMPORTED_MODULE_1_store___default.a.get("topic-list");
+  let topics = __WEBPACK_IMPORTED_MODULE_1_store___default.a.get(bm_topic_list);
   let concatTopics = topics.topics.concat(newTopics);
 
   //improve sort
@@ -6207,7 +6206,7 @@ function addToTopicList(newTopics) {
   });
 
   topics.topics = concatTopics;
-  __WEBPACK_IMPORTED_MODULE_1_store___default.a.set("topic-list", topics);
+  __WEBPACK_IMPORTED_MODULE_1_store___default.a.set(bm_topic_list, topics);
 
   //add topics to server if user signed in
   let userInfo = Object(__WEBPACK_IMPORTED_MODULE_3__user_netlify__["b" /* getUserInfo */])();
@@ -6239,7 +6238,7 @@ function inValidateBookmarkList() {
   let bmList = getBookmarkList(keyInfo);
 
   if (bmList) {
-    console.log("invalidating bmList");
+    //console.log("invalidating bmList");
     bmList.lastBuildDate = 0;
     storeBookmarkList(bmList, keyInfo);
   }
@@ -13012,6 +13011,8 @@ module.exports = isFunction;
 
 //import {getSourceId, genPageKey} from "../_config/key";
 const transcript = __webpack_require__(20);
+const bm_modal_store = "bm.jsb.modal";
+const bm_list_store = "bm.jsb.list";
 
 let shareEventListenerCreated = false;
 let gPageKey;
@@ -13399,8 +13400,8 @@ function getCurrentBookmark(pageKey, actualPid, allBookmarks, bmModal, whoCalled
 function bookmarkManager(actualPid) {
   let sourceId = transcript.getSourceId();
   let pageKey = transcript.genPageKey().toString(10);
-  let bmList = __WEBPACK_IMPORTED_MODULE_2_store___default.a.get(`bmList_${sourceId}`);
-  let bmModal = __WEBPACK_IMPORTED_MODULE_2_store___default.a.get(`bmModal_${sourceId}`);
+  let bmList = __WEBPACK_IMPORTED_MODULE_2_store___default.a.get(bm_list_store);
+  let bmModal = __WEBPACK_IMPORTED_MODULE_2_store___default.a.get(bm_modal_store);
 
   if (bmList) {
     //store globally
@@ -13459,8 +13460,8 @@ function bookmarkManager(actualPid) {
 */
 function updateNavigator(pid, update) {
   //console.log("updateNavigator, pid: %s, update: %s", pid, update);
-  let bmList = __WEBPACK_IMPORTED_MODULE_2_store___default.a.get(`bmList_${transcript.getSourceId()}`);
-  let bmModal = __WEBPACK_IMPORTED_MODULE_2_store___default.a.get(`bmModal_${transcript.getSourceId()}`);
+  let bmList = __WEBPACK_IMPORTED_MODULE_2_store___default.a.get(bm_list_store);
+  let bmModal = __WEBPACK_IMPORTED_MODULE_2_store___default.a.get(bm_modal_store);
   getCurrentBookmark(gPageKey, pid, bmList, bmModal, update);
 }
 
@@ -13501,6 +13502,11 @@ function initShareDialog(source) {
     let userInfo;
     let pid, aid, text;
 
+    if ($(this).hasClass("close")) {
+      clearSelectedAnnotation();
+      return;
+    }
+
     userInfo = Object(__WEBPACK_IMPORTED_MODULE_4__user_netlify__["b" /* getUserInfo */])();
     if (!userInfo) {
       __WEBPACK_IMPORTED_MODULE_5_toastr___default.a.info("You must be signed in to share selected text");
@@ -13515,9 +13521,6 @@ function initShareDialog(source) {
     } else if ($(this).hasClass("linkify")) {
       //work is already done
       channel = "clipboard";
-      return;
-    } else if ($(this).hasClass("close")) {
-      clearSelectedAnnotation();
       return;
     }
 
@@ -26476,54 +26479,7 @@ module.exports = function spread(callback) {
 
 
 /***/ }),
-/* 243 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var baseIndexOf = __webpack_require__(138),
-    toInteger = __webpack_require__(101);
-
-/* Built-in method references for those with the same name as other `lodash` methods. */
-var nativeMax = Math.max;
-
-/**
- * Gets the index at which the first occurrence of `value` is found in `array`
- * using [`SameValueZero`](http://ecma-international.org/ecma-262/7.0/#sec-samevaluezero)
- * for equality comparisons. If `fromIndex` is negative, it's used as the
- * offset from the end of `array`.
- *
- * @static
- * @memberOf _
- * @since 0.1.0
- * @category Array
- * @param {Array} array The array to inspect.
- * @param {*} value The value to search for.
- * @param {number} [fromIndex=0] The index to search from.
- * @returns {number} Returns the index of the matched value, else `-1`.
- * @example
- *
- * _.indexOf([1, 2, 1, 2], 2);
- * // => 1
- *
- * // Search from the `fromIndex`.
- * _.indexOf([1, 2, 1, 2], 2, 2);
- * // => 3
- */
-function indexOf(array, value, fromIndex) {
-  var length = array == null ? 0 : array.length;
-  if (!length) {
-    return -1;
-  }
-  var index = fromIndex == null ? 0 : toInteger(fromIndex);
-  if (index < 0) {
-    index = nativeMax(length + index, 0);
-  }
-  return baseIndexOf(array, value, index);
-}
-
-module.exports = indexOf;
-
-
-/***/ }),
+/* 243 */,
 /* 244 */
 /***/ (function(module, exports) {
 
@@ -26727,7 +26683,7 @@ module.exports = objectToString;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-const status = { acq: "Tue Jan 29 20:45:08 WITA 2019", til: "Wed Dec 26 13:47:51 WITA 2018" };
+const status = { acq: "Sat Mar 16 15:34:25 WITA 2019", til: "Sat Mar 16 15:34:07 WITA 2019" };
 /* harmony export (immutable) */ __webpack_exports__["a"] = status;
 
 
@@ -36212,8 +36168,7 @@ const uiOpenBookmarkModal = ".bookmark-modal-open";
 const uiModalOpacity = 0.5;
 
 function bookmarkModalState(option, modalInfo) {
-  let sid = transcript.getSourceId();
-  let name = `bmModal_${sid}`;
+  const name = "bm.jsb.modal";
   let info;
 
   switch (option) {
@@ -37727,7 +37682,6 @@ function createClickHandlers() {
     e.preventDefault();
 
     if ($(this).hasClass("page-tour")) {
-      console.log("pageDriver");
       Object(__WEBPACK_IMPORTED_MODULE_0__util_driver__["a" /* pageDriver */])();
     }
 
@@ -37746,35 +37700,19 @@ function createClickHandlers() {
     }
 
     if ($(this).hasClass("read-documentation")) {
-      if (location.hostname === "localhost") {
-        location.href = "http://localhost:9999/acq/quick/";
-      } else {
-        location.href = "https://www.christmind.info/acq/quick/";
-      }
+      location.href = "/acq/quick/";
     }
 
     if ($(this).hasClass("view-documentation")) {
-      if (location.hostname === "localhost") {
-        location.href = "http://localhost:9999/acq/video/";
-      } else {
-        location.href = "https://www.christmind.info/acq/video/";
-      }
+      location.href = "/acq/video/";
     }
 
     if ($(this).hasClass("contact-me")) {
-      if (location.hostname === "localhost") {
-        location.href = "http://localhost:9999/acq/contact/";
-      } else {
-        location.href = "https://www.christmind.info/acq/contact/";
-      }
+      location.href = "/acq/contact/";
     }
 
     if ($(this).hasClass("profile-management")) {
-      if (location.hostname === "localhost") {
-        location.href = "http://localhost:9999/profile/email/";
-      } else {
-        location.href = "https://www.christmind.info/profile/email/";
-      }
+      location.href = "/profile/email/";
     }
   });
 

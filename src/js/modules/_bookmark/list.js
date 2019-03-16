@@ -17,8 +17,7 @@ const uiOpenBookmarkModal = ".bookmark-modal-open";
 const uiModalOpacity = 0.5;
 
 function bookmarkModalState(option, modalInfo) {
-  let sid = transcript.getSourceId();
-  let name = `bmModal_${sid}`;
+  const name = "bm.jsb.modal";
   let info;
 
   switch(option) {

@@ -11,6 +11,8 @@ import clipboard from "./clipboard";
 
 //import {getSourceId, genPageKey} from "../_config/key";
 const transcript = require("../_config/key");
+const bm_modal_store = "bm.jsb.modal";
+const bm_list_store = "bm.jsb.list";
 
 let shareEventListenerCreated = false;
 let gPageKey;
@@ -343,7 +345,7 @@ function getNextPid(currentPos, pageMarks, pageBookmarks, topics) {
 function getCurrentBookmark(pageKey, actualPid, allBookmarks, bmModal, whoCalled) {
   let pidKey;
   let topics = [];
-  
+
   if (bmModal["modal"].filter) {
     topics = bmModal["modal"].topics;
   }
@@ -409,8 +411,8 @@ function getCurrentBookmark(pageKey, actualPid, allBookmarks, bmModal, whoCalled
 function bookmarkManager(actualPid) {
   let sourceId = transcript.getSourceId();
   let pageKey = transcript.genPageKey().toString(10);
-  let bmList = store.get(`bmList_${sourceId}`);
-  let bmModal = store.get(`bmModal_${sourceId}`);
+  let bmList = store.get(bm_list_store);
+  let bmModal = store.get(bm_modal_store);
 
   if (bmList) {
     //store globally
@@ -474,8 +476,8 @@ function bookmarkManager(actualPid) {
 */
 function updateNavigator(pid, update) {
   //console.log("updateNavigator, pid: %s, update: %s", pid, update);
-  let bmList = store.get(`bmList_${transcript.getSourceId()}`);
-  let bmModal = store.get(`bmModal_${transcript.getSourceId()}`);
+  let bmList = store.get(bm_list_store);
+  let bmModal = store.get(bm_modal_store);
   getCurrentBookmark(gPageKey, pid, bmList, bmModal, update);
 }
 
@@ -516,6 +518,11 @@ export function initShareDialog(source) {
     let userInfo;
     let pid, aid, text;
 
+    if ($(this).hasClass("close")) {
+      clearSelectedAnnotation();
+      return;
+    }
+
     userInfo = getUserInfo();
     if (!userInfo) {
       notify.info("You must be signed in to share selected text");
@@ -534,10 +541,6 @@ export function initShareDialog(source) {
       channel = "clipboard";
       return;
     }
-    else if ($(this).hasClass("close")) {
-      clearSelectedAnnotation();
-      return;
-    }
 
     pid = $(".selected-annotation-wrapper p").attr("id");
 
@@ -554,7 +557,7 @@ export function initShareDialog(source) {
     let srcTitle = $("#src-title").text();
     let bookTitle = $("#book-title").text();
     let citation = `~ ${srcTitle}: ${bookTitle}`;
-    
+
     let url = `https://${location.hostname}${location.pathname}?as=${pid}:${aid}:${userInfo.userId}`;
 
     if (channel === "facebook") {
