@@ -11,10 +11,10 @@ const SOURCE_ID = "jsb";
 
 //mp3 and audio timing base directories
 const audioBase = `https://s3.amazonaws.com/${AWS_BUCKET}/${SOURCE_ID}/audio`;
-const timingBase = "/jsb/public/timing";
+const timingBase = "/t/jsb/public/timing";
 
 //location of configuration files
-const configUrl = "/jsb/public/config";
+const configUrl = "/t/jsb/public/config";
 const configStore = "config.jsb.";
 
 //the current configuration, initially null, assigned by getConfig()
@@ -157,13 +157,7 @@ export function loadConfig(book) {
 function _getAudioInfo(idx, cIdx) {
   let audioInfo;
 
-  if (idx.length === 4) {
-    let qIdx = parseInt(idx[2].substr(1), 10) - 1;
-    audioInfo = config.contents[cIdx].questions[qIdx];
-  }
-  else {
-    audioInfo = config.contents[cIdx];
-  }
+  audioInfo = config.contents[cIdx];
   return audioInfo ? audioInfo: {};
 }
 
@@ -180,17 +174,17 @@ export function getAudioInfo(url) {
   let idx = url.split("/");
 
   //check the correct configuration file is loaded
-  if (config.bid !== idx[1]) {
-    throw new Error("Unexpected config file loaded; expecting %s but %s is loaded.", idx[0], config.bid);
+  if (config.bid !== idx[2]) {
+    throw new Error("Unexpected config file loaded; expecting %s but %s is loaded.", idx[2], config.bid);
   }
 
   let audioInfo = {};
   let cIdx;
 
-  switch(idx[0]) {
+  switch(idx[2]) {
     default:
       //console.log("idx[1]: ", idx);
-      cIdx = parseInt(idx[2].substr(4), 10) - 1;
+      cIdx = parseInt(idx[3].substr(4), 10) - 1;
       //console.log("cIdx: %s", cIdx);
       audioInfo = _getAudioInfo(idx, cIdx);
       break;

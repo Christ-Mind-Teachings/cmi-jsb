@@ -1,5 +1,5 @@
 # CMI
-destination: "../cmi-www/_site/jsb"
+destination: "../cmi-www/_site/t/jsb"
 
 sourceId: 11
 cmiTitle: "Teachings of Christ Mind"
@@ -9,7 +9,7 @@ sid: "jsb"
 title:        'The Impersonal Life'
 tagline:      ''
 description:  'The Impersonal Life by Joseph S. Benner 1914'
-url:          'https://www.christmind.info/jsb'
+url:          'https://www.christmind.info/t/jsb'
 baseurl:      ''
 keywords:     "Christ Mind, spiritual, The Impersonal Life, Joseph S. Benner"
 port:         9911
@@ -21,7 +21,7 @@ author:
   email:             rmercer33@gmail.com
 
 fb-appId:     448658485318107
-src-url:      'https://www.christmind.info/jsb'
+src-url:      'https://www.christmind.info/t/jsb'
 
 # Permalinks
 permalink: pretty
@@ -52,7 +52,7 @@ defaults:
     values:
       layout: transcript
       book: "Get Acquainted"
-      image: "/jsb/public/img/src/acq-big.jpg"
+      image: "/t/jsb/public/img/src/acq-big.jpg"
       image-width: 612
       image-height: 792
       bid: "acq"
@@ -63,7 +63,7 @@ defaults:
     values:
       layout: transcript
       book: "The Impersonal Life"
-      image: "/jsb/public/img/src/til-big.jpg"
+      image: "/t/jsb/public/img/src/til-big.jpg"
       image-width: 612
       image-height: 792
       bid: "til"
