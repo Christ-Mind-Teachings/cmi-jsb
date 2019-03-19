@@ -1,0 +1,74 @@
+# CMI
+destination: "../cmi-www/t/jsb"
+
+sourceId: 11
+cmiTitle: "Teachings of Christ Mind"
+sid: "jsb"
+
+# Setup
+title:        'The Impersonal Life'
+tagline:      ''
+description:  'The Impersonal Life by Joseph S. Benner 1914'
+url:          'https://www.christmind.info/t/jsb'
+baseurl:      ''
+keywords:     "Christ Mind, spiritual, The Impersonal Life, Joseph S. Benner"
+port:         9911
+
+# About/contact
+author:
+  name:              Rick Mercer
+  url:               https://twitter.com/rmercer33
+  email:             rmercer33@gmail.com
+
+fb-appId:     448658485318107
+src-url:      'https://www.christmind.info/t/jsb'
+
+# Permalinks
+permalink: pretty
+permalink: /:title/
+
+# Set encoding to UTF-8
+encoding: utf-8
+
+# Build settings
+markdown: kramdown
+#plugins:
+#  - jekyll-sitemap
+
+# Collections for transcripts
+collections:
+  acq:
+    output: true
+    title: Get Acquainted
+  til:
+    output: true
+    title: The Impersonal Life
+
+defaults:
+  - scope:
+      path: ""
+      type: acq
+    values:
+      layout: transcript
+      book: "Get Acquainted"
+      image: "/t/jsb/public/img/src/acq-big.jpg"
+      image-width: 612
+      image-height: 792
+      bid: "acq"
+      search: false
+  - scope:
+      path: ""
+      type: til
+    values:
+      layout: transcript
+      book: "The Impersonal Life"
+      image: "/t/jsb/public/img/src/til-big.jpg"
+      image-width: 612
+      image-height: 792
+      bid: "til"
+      search: false
+
+exclude: [
+  deploy, LICENSE, README.md, Gemfile, Gemfile.lock, package.json, package-lock.json, node_modules, webpack.config.js, src, project
+]
+
