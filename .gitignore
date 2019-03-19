@@ -3,6 +3,7 @@ _site
 .jekyll-metadata
 .DS_Store
 node_modules/
+public/js/
 project/
 *.map
 *.old
