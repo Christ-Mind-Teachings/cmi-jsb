@@ -1,0 +1,5 @@
+# Netlify url rewrite file
+
+/                       https://jsb.christmind.info/moved/
+/acq/*                  https://www.christmind.info/t/jsb/acq/:splat
+
