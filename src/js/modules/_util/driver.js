@@ -54,6 +54,15 @@ const pageMenuSearchItem = {
   }
 };
 
+const pageMenuQuickJumpItem = {
+    element: "#quick-links-dropdown-menu",
+    popover: {
+      title: "Navigate to Another Teaching",
+      description: "Quickly jump to one of the other teachings in the Library.",
+      position: "bottom"
+    }
+};
+
 const pageMenuHelpItem = {
   element: "#help-menu",
   popover: {
@@ -93,8 +102,8 @@ const cmiTranscriptBanner = {
 const cmiTranscriptSourceTitle = {
   element: "#src-title",
   popover: {
-    title: "A Course In Miracles",
-    description: "This page is part of A Course In Miracles. Click this link to navigate to the ACIM Home page.",
+    title: "The Impersonal Life",
+    description: "This page is from The Impersonal Life",
     position: "bottom"
   }
 };
@@ -228,6 +237,7 @@ export function pageNavigationDriver() {
     pageNavigationDriverSteps.push(pageMenuSearchItem);
   }
 
+  pageNavigationDriverSteps.push(pageMenuQuickJumpItem);
   pageNavigationDriverSteps.push(pageMenuHelpItem);
   pageNavigationDriverSteps.push(pageMenuLoginItem);
   pageNavigationDriverSteps.push(pageMenuTextContents);
@@ -266,6 +276,7 @@ export function transcriptDriver() {
     transcriptDriverSteps.push(transcriptMenuNextPageItem);
   }
 
+  transcriptDriverSteps.push(pageMenuQuickJumpItem);
   transcriptDriverSteps.push(transcriptMenuHelpItem);
   transcriptDriverSteps.push(transcriptMenuLoginItem);
 
