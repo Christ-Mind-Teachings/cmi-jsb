@@ -6,7 +6,7 @@ import {getPageInfo} from "../_config/config";
 import net from "./bmnet";
 import notify from "toastr";
 import flatten from "lodash/flatten";
-import uniq from "lodash/uniq";
+import uniqWith from "lodash/uniqWith";
 import store from "store";
 
 //import {getSourceId, getKeyInfo} from "../_config/key";
@@ -177,7 +177,7 @@ function generateBookmarkList(books) {
         <li>Clicking on the paragraph number, eg: (p21)</li>
       </ul>
       <p>
-        See <a href="https://www.christmind.info/acq/bookmark/">the Bookmark documentation</a> for more information.
+        See <a href="/acq/bookmark/">the Bookmark documentation</a> for more information.
       </p>
     `;
   }
@@ -255,9 +255,18 @@ function combinePages(pages) {
             if (annotation.topicList) {
               return annotation.topicList;
             }
+            else {
+              //bookmark has no topics
+              return [];
+            }
           });
           //collect all topics used for modal dropdown select control
-          let uniqueArray = uniq(flatten(tpl));
+          let uniqueArray = uniqWith(flatten(tpl), (a,b) => {
+            if (a.value === b.value) {
+              return true;
+            }
+            return false;
+          });
 
           page.bookmarks[`tpList${pid}`] = uniqueArray;
           allTopics.push(uniqueArray);
@@ -266,7 +275,24 @@ function combinePages(pages) {
     });
   });
 
-  let allUniqueTopics = uniq(flatten(allTopics)).sort();
+  let flatTopics = flatten(allTopics);
+  let sortedFlatTopics = flatTopics.sort((a,b) => {
+    if (a.value < b.value) {
+      return -1;
+    }
+    else if (a.value > b.value) {
+      return 1;
+    }
+
+    return 0;
+  });
+  let allUniqueTopics = uniqWith(sortedFlatTopics, (a,b) => {
+    if (a.value === b.value) {
+      return true;
+    }
+    return false;
+  });
+
   return {bookArray, topics: allUniqueTopics};
 
 }
@@ -342,10 +368,15 @@ function filterSubmitHandler() {
     //keep track of the state of the bookmark Modal
     let bookmarkModalInfo = bookmarkModalState("get");
 
+    let fullTopic = topics.map((t) => {
+      return {value: t, topic: $(`#bookmark-topic-list > [value='${t}']`).text()};
+    });
+
     //if we have data we're initializing and so we don't need to save state
     if (!data) {
       bookmarkModalInfo["modal"].filter = true;
       bookmarkModalInfo["modal"].topics = topics;
+      bookmarkModalInfo["modal"].fullTopic = fullTopic;
       bookmarkModalState("set", bookmarkModalInfo);
     }
 
