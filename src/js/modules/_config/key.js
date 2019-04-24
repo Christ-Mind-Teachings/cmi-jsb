@@ -27,6 +27,7 @@ const sprintf = require("sprintf-js").sprintf;
 //WOM = 10
 //jsb = 11
 const sourceId = 11;
+const sid = "jsb";
 
 //length of pageKey excluding decimal portion
 const keyLength = 8;
@@ -262,6 +263,30 @@ function getUrl(key) {
 
   return `/${decodedKey.bookId}/${unit}/`;
 }
+/*
+  Describe key in terms of source:book:unit:p
+*/
+
+function describeKey(key) {
+  let decodedKey = decodeKey(key, false);
+
+  if (decodedKey.error) {
+    return {key: key, error: true, source: sid};
+  }
+
+  let info = {
+    key: key,
+    source: sid,
+    book: decodedKey.bookId,
+    unit: contents[decodedKey.bookId][decodedKey.uid]
+  };
+
+  if (decodedKey.pid > -1) {
+    info.pid = `p${decodedKey.pid}`;
+  }
+
+  return info;
+}
 
 module.exports = {
   getNumberOfUnits: getNumberOfUnits,
@@ -272,5 +297,6 @@ module.exports = {
   parseKey: parseKey,
   genPageKey: genPageKey,
   genParagraphKey: genParagraphKey,
-  decodeKey: decodeKey
+  decodeKey: decodeKey,
+  describeKey: describeKey
 };
