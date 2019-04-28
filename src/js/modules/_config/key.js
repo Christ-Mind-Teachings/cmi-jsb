@@ -28,6 +28,7 @@ const sprintf = require("sprintf-js").sprintf;
 //jsb = 11
 const sourceId = 11;
 const sid = "jsb";
+const prefix = "/t/jsb";
 
 //length of pageKey excluding decimal portion
 const keyLength = 8;
@@ -249,7 +250,7 @@ function getNumberOfUnits(bid) {
 /*
  * Convert page key to url
  */
-function getUrl(key) {
+function getUrl(key, withPrefix = false) {
   let decodedKey = decodeKey(key);
   let unit = "invalid";
 
@@ -261,8 +262,13 @@ function getUrl(key) {
     unit = contents[decodedKey.bookId][decodedKey.uid + 1];
   }
 
+  if (withPrefix) {
+    return `${prefix}/${decodedKey.bookId}/${unit}/`;
+  }
+
   return `/${decodedKey.bookId}/${unit}/`;
 }
+
 /*
   Describe key in terms of source:book:unit:p
 */
@@ -278,7 +284,7 @@ function describeKey(key) {
     key: key,
     source: sid,
     book: decodedKey.bookId,
-    unit: contents[decodedKey.bookId][decodedKey.uid]
+    unit: contents[decodedKey.bookId][decodedKey.uid + 1]
   };
 
   if (decodedKey.pid > -1) {

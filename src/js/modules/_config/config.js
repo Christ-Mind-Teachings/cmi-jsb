@@ -8,6 +8,7 @@ const transcript = require("./key");
 //change these values to reflect transcript info
 const AWS_BUCKET = "assets.christmind.info";
 const SOURCE_ID = "jsb";
+const SOURCE = "The Impersonal Life";
 
 //mp3 and audio timing base directories
 const audioBase = `https://s3.amazonaws.com/${AWS_BUCKET}/${SOURCE_ID}/audio`;
@@ -218,7 +219,7 @@ export function getReservation(url) {
 */
 export function getPageInfo(pageKey, data = false) {
   let decodedKey = transcript.decodeKey(pageKey);
-  let info = {pageKey: pageKey, bookId: decodedKey.bookId};
+  let info = {pageKey: pageKey, source: SOURCE, bookId: decodedKey.bookId};
 
   if (data) {
     info.data = data;
