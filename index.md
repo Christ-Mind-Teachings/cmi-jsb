@@ -7,7 +7,7 @@ footer:
   donate: false
   id: "CMI-JSB"
   source: "JSB"
-  repohref: "https://github.com/rmercer33/cmi-jsb"
+  repohref: "https://github.com/Christ-Mind-Teachings/cmi-jsb"
 ---
 
 ## Welcome to Joseph S. Benner
