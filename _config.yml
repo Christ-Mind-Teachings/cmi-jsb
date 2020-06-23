@@ -57,6 +57,7 @@ defaults:
       image-height: 792
       bid: "acq"
       search: false
+      pnumToggle: false
   - scope:
       path: ""
       type: til
