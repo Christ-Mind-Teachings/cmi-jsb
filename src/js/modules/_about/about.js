@@ -1,4 +1,5 @@
-import {pageDriver, pageNavigationDriver, transcriptDriver} from "../_util/driver";
+import {pageDriver} from "../_util/driver";
+import {transcriptDriver, pageNavigationDriver} from "www/modules/_util/driver";
 import key from "../_config/key";
 import clipboard from "www/modules/_bookmark/clipboard";
 
@@ -13,12 +14,12 @@ function createClickHandlers() {
 
     if ($(this).hasClass("page-navtour")) {
       //console.log("page Nav Driver");
-      pageNavigationDriver();
+      pageNavigationDriver("The Impersonal Life");
     }
 
     if ($(this).hasClass("transcript-tour")) {
       //console.log("transcriptDriver");
-      transcriptDriver();
+      transcriptDriver("The Impersonal Life");
     }
 
     if ($(this).hasClass("about-src")) {
@@ -36,9 +37,15 @@ function createClickHandlers() {
     if ($(this).hasClass("contact-me")) {
       location.href = "/acq/contact/";
     }
+  });
 
+  $(".login-menu-option-account").on("click", "div.item", function(e) {
     if ($(this).hasClass("profile-management")) {
       location.href = "/profile/email/";
+    }
+
+    if ($(this).hasClass("topic-management")) {
+      location.href = "/profile/topicMgt/";
     }
   });
 

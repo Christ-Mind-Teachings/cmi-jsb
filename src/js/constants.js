@@ -9,12 +9,18 @@ export default {
   sid: "jsb",
   env: "integration",
   lang: "en",
+  url_prefix: "/t/jsb",                  //navigator
+  sourceId: 11,
   getPageInfo: getPageInfo,              //list
   keyInfo: keyInfo,                      //list, bmnet
-  bm_modal_key: "bm.jsb.modal",         //list
-  bm_creation_state: "bm.jsb.creation", //bookmark
-  bm_list_store: "bm.jsb.list",         //bmnet
-  bm_topic_list: "bm.jsb.topics",       //bmnet
-  bm_modal_store: "bm.jsb.modal",       //navigator
-  url_prefix: "/t/jsb"                  //navigator
+  store: {
+    bmList: "bm.list",
+    bmCreation: "bm.creation",
+    bmTopics: "bm.topics",
+    bmModal: "bm.modal",
+    srchResults: "srch.results",
+    pnDisplay: "pn.display",
+    cfgacq: "cfg.acq",
+    cfgtil: "cfg.til"
+  }
 };
