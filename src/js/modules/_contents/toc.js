@@ -24,7 +24,6 @@ function makeContents(contents) {
   next menu controls
 */
 function highlightCurrentTranscript(bid) {
-  console.log("highlight");
   if ($(".transcript").length > 0) {
     let page = location.pathname;
     let $el = $(`.toc-list a[href='${page}']`);
