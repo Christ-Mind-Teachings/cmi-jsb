@@ -11,6 +11,8 @@ export default {
   lang: "en",
   url_prefix: "/t/jsb",                  //navigator
   sourceId: 11,
+  quoteManagerId: "05399539cca9ac38db6db36f5c770ff1",
+  quoteManagerName: "CMI",
   getPageInfo: getPageInfo,              //list
   keyInfo: keyInfo,                      //list, bmnet
   store: {
