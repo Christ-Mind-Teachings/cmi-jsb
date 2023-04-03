@@ -39,7 +39,7 @@ in 1914 believing its words were directly from God.
       <div class="ui bottom attached active tab segment" data-tab="first">
         <div class="box">
           <p>
-            Introducing <em>Quotes!</em> Display a random quote from ACOL with
+          Introducing <em>Quotes!</em> Display a random quote from <em>The Impersonal Life</em> with
             options to share via email and Facebook. The citation links you directly to 
             the source of the quote.  
           </p>
@@ -61,6 +61,16 @@ in 1914 believing its words were directly from God.
         </div>
       </div>
     </div>
+  </div>
+  <div>
+    <p>
+      <em>The Impersonal Life</em> is one of many channeled messages
+      from Joseph Benner. All of his messages and more is available at
+      <a href="https://thechristletters.weebly.com/the-impersonal-life.html" target="_blank">
+      The Christ Letters
+      </a> website.
+      <p>&nbsp;</p>
+    </p>
   </div>
   <div class="ui three cards">
     <div class="card">
