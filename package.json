@@ -4,7 +4,6 @@
   "description": "Teachings of Christ Mind: The Impersonal Life",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
     "base:dev:webpack": "webpack --mode development",
     "base:dev:jekyll": "JEKYLL_ENV=development bundle exec jekyll build --config ./_config.prod.yml",
     "base:prod:webpack": "webpack --mode production",
@@ -33,15 +32,5 @@
     "style-loader": "^0.23.1",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"
-  },
-  "dependencies": {
-    "axios": "^0.19.2",
-    "driver.js": "^0.9.8",
-    "lodash": "^4.17.15",
-    "mediaelement": "^4.2.16",
-    "scroll-into-view": "^1.14.2",
-    "sprintf-js": "^1.1.2",
-    "store": "^2.0.12",
-    "toastr": "^2.1.4"
   }
 }

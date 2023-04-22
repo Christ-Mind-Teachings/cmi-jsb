@@ -1,31 +1,38 @@
 /* eslint no-console: off */
-import {storeInit} from "www/modules/_util/store";
 
-//common modules
-import auth from "www/modules/_user/netlify";
-import {initStickyMenu, initAnimation} from "www/modules/_page/startup";
+import {SourceStore, storeInit} from "common/modules/_util/store";
+import auth from "common/modules/_user/netlify";
+import {initStickyMenu, initAnimation} from "common/modules/_page/startup";
+import {showQuotes, showTOC} from "common/modules/_util/url";
+import fb from "common/modules/_util/facebook";
+import {initQuoteDisplay} from "common/modules/_topics/events";
 
-//teaching specific modules
 import {bookmarkStart} from "./modules/_bookmark/start";
-import search from "./modules/_search/search";
+import {setEnv} from "./modules/_config/config";
 import toc from "./modules/_contents/toc";
 import about from "./modules/_about/about";
 
-import {initQuoteDisplay} from "www/modules/_topics/events";
-import {setLanguage} from "www/modules/_language/lang";
 import constants from "./constants";
 
 $(document).ready(() => {
+  const store = new SourceStore(constants);
   storeInit(constants);
   initStickyMenu();
-  setLanguage(constants);
 
-  bookmarkStart("page");
-  search.initialize();
   auth.initialize();
+  setEnv(store);
+
+  bookmarkStart("page", store);
   toc.initialize("page");
   about.initialize();
-  initQuoteDisplay("#show-quote-button", constants);
 
+  fb.initialize();
+  initQuoteDisplay("#show-quote-button", constants);
   initAnimation();
+
+  //if url contains ?tocbook=[ack | book1 | book2] then show TOC on page load
+  showTOC();
+
+  //if url contains ?quotes=y then show quotes modal on page load
+  showQuotes();
 });

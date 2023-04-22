@@ -1,4 +1,5 @@
 import scroll from "scroll-into-view";
+
 import {getConfig} from "../_config/config";
 
 const uiTocModal = ".toc.ui.modal";
@@ -111,7 +112,7 @@ function loadTOC() {
     })
     .catch((error) => {
       console.error(error);
-      $(".toc-image").attr("src", "/public/img/cmi/toc_modal.png");
+      $(".toc-image").attr("src", "/public/img/site/toc_modal.png");
       $(".toc-title").html("Table of Contents: <em>Error</em>");
       $(".toc-list").html(`<p>Error: ${error.message}</p>`);
       $(uiTocModal).modal("show");
