@@ -36,7 +36,7 @@ const keyLength = 8;
 const books = ["til", "acq"];
 const bookIds = ["xxx", ...books];
 const acq = ["xxx", "welcome"];
-const til = ["xxx", "chap01", "chap02", "chap03", "chap04", "chap05", "chap06", "chap07", "chap08", "chap09", "chap10", "chap11", "chap12", "chap13", "chap14", "chap15", "chap16", "chap17", "chap18", "chap18"];
+const til = ["xxx", "chap01", "chap02", "chap03", "chap04", "chap05", "chap06", "chap07", "chap08", "chap09", "chap10", "chap11", "chap12", "chap13", "chap14", "chap15", "chap16", "chap17", "chap18", "chap19"];
 
 const contents = {
   acq: acq,

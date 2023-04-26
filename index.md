@@ -20,7 +20,7 @@ in 1914 believing its words were directly from God.
   <div class="ui equal width grid source-acq-section">
     <div class="five wide column">
       <div class="ui card">
-        <a id="book-acq" href="#" data-book="acq" class="toc-modal-open image">
+        <a id="book-acq" href="#" data-book="acq" animate class="toc-modal-open image">
           <img src="/t/jsb/public/img/src/acq-big.jpg">
         </a>
         <div class="content">
@@ -74,7 +74,7 @@ in 1914 believing its words were directly from God.
   </div>
   <div class="ui three cards">
     <div class="card">
-      <a href="#" data-book="til" class="toc-modal-open image">
+      <a href="#" data-book="til" animate class="toc-modal-open image">
         <img src="/t/jsb/public/img/src/til-big.jpg">
       </a>
       <div class="content">
